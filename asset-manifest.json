@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Templates-Websites-React-js-Front-end/static/css/main.39cb410d.css",
+    "main.js": "/Templates-Websites-React-js-Front-end/static/js/main.a8c045c8.js",
+    "static/js/787.ca46937c.chunk.js": "/Templates-Websites-React-js-Front-end/static/js/787.ca46937c.chunk.js",
+    "static/media/montaign.jpg": "/Templates-Websites-React-js-Front-end/static/media/montaign.7245f68cb7a57881aa59.jpg",
+    "index.html": "/Templates-Websites-React-js-Front-end/index.html",
+    "main.39cb410d.css.map": "/Templates-Websites-React-js-Front-end/static/css/main.39cb410d.css.map",
+    "main.a8c045c8.js.map": "/Templates-Websites-React-js-Front-end/static/js/main.a8c045c8.js.map",
+    "787.ca46937c.chunk.js.map": "/Templates-Websites-React-js-Front-end/static/js/787.ca46937c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39cb410d.css",
+    "static/js/main.a8c045c8.js"
+  ]
+}
