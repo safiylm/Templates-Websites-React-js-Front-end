@@ -1,0 +1,30 @@
+.div-image-container  {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-image-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-image-container img{
+    width: 250px;
+    height:250px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.div-image-container h2{
+    padding: 30px;
+    width: 850px;
+    text-align: center;
+    line-height: 55px;
+    font-weight: 200;
+    font-size: 29px;
+}

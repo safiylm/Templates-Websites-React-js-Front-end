@@ -1,0 +1,48 @@
+.page-template h1{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: Raleway;
+    margin: 80px 0;
+    padding: 0 150px;
+}
+
+.page-template .container, .div-img-texte, .div-texte-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.page-template .container{
+    margin: 50px;
+}
+
+.page-template .container div img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 45px;
+    margin: 0 20px;;
+}
+
+.page-template .container div .div-texte{
+    max-width: 200px;
+}
+
+ .prix{
+    color:#a79f94;
+    font-weight: 700;
+    font-size: 22px;
+ }
+
+ .titre{
+    font-family: Raleway,sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+ }
+ .texte{
+    font-style: italic;
+ }
