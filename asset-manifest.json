@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/templates-websites/static/css/main.0fbfd764.css",
-    "main.js": "/templates-websites/static/js/main.b1915f9d.js",
+    "main.js": "/templates-websites/static/js/main.eeeaafb8.js",
     "static/js/787.ca46937c.chunk.js": "/templates-websites/static/js/787.ca46937c.chunk.js",
     "static/media/montaign.jpg": "/templates-websites/static/media/montaign.7245f68cb7a57881aa59.jpg",
     "index.html": "/templates-websites/index.html",
     "main.0fbfd764.css.map": "/templates-websites/static/css/main.0fbfd764.css.map",
-    "main.b1915f9d.js.map": "/templates-websites/static/js/main.b1915f9d.js.map",
+    "main.eeeaafb8.js.map": "/templates-websites/static/js/main.eeeaafb8.js.map",
     "787.ca46937c.chunk.js.map": "/templates-websites/static/js/787.ca46937c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0fbfd764.css",
-    "static/js/main.b1915f9d.js"
+    "static/js/main.eeeaafb8.js"
   ]
 }
