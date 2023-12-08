@@ -5,6 +5,8 @@ import TemplateWebSite4 from './components/template/4/index.js'
 import TemplateWebSite5 from './components/template/5/index.js'
 import TemplateWebSite6 from './components/template/6/index.js'
 import TemplateWebSite7 from './components/template/7/index.js'
+import TemplateWebSite8 from './components/template/8/index.js'
+
 import ListeTemplateWebSite from './components/liste-templates.js'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -24,6 +26,7 @@ function App() {
           <Route path="/template/5" element={<TemplateWebSite5 />} />
           <Route path="/template/6" element={<TemplateWebSite6 />} />
           <Route path="/template/7" element={<TemplateWebSite7 />} />
+          <Route path="/template/8" element={<TemplateWebSite8 />} />
         </Route>
       </Routes>
     </BrowserRouter>

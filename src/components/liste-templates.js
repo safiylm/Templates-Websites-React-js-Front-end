@@ -38,7 +38,7 @@ function ListeTemplateWebSite() {
           <p>Blog de cuisine</p>
         </a>
 
-        <a href="https://nicepage.com/templates/preview/travel-assistant-12890?device=desktop" >
+        <a href="/template/8" >
           <img src="https://images01.nicepagecdn.com/page/12/89/template-12890.jpg" className="image" alt="logo" />
           <p>Travel assistant</p>
         </a>

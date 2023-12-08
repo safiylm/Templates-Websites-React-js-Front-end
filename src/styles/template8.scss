@@ -1,0 +1,251 @@
+.div0 {
+    background-image: url("https://images01.nicepage.com/95/94/959442e7ce67c27b19ade3667cfeba2d.jpeg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+
+    h1 {
+        padding-top: 50vh;
+        text-align: right;
+        font-size: 80px;
+        color: white;
+    }
+}
+
+.div1 {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    .texte {
+        width: 500px;
+        margin: 20px;
+
+        h1 {
+            font-family: 'Montserrat, sans-serif';
+            text-transform: capitalize;
+            font-style: normal;
+            font-weight: 700;
+            padding: 10px;
+            margin: 10px;
+            ;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 26px;
+            ;
+            font-style: normal;
+            color: rgb(56, 55, 55);
+        }
+    }
+
+    img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+        margin: 20px;
+
+    }
+}
+
+.div2 {
+    background-color: #292d33;
+
+    .div2-texte {
+        color: white;
+        padding: 60px 500px 30px 200px;
+
+        h1 {
+            text-align: left;
+            padding: 10px;
+            margin: 10px;
+            font-size: 60px;
+            font-style: normal;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+        }
+
+        p {
+            line-height: 25px;
+            font-size: 17px;
+
+        }
+    }
+
+    .liste {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 100px 100px 100px;
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                height: 100px;
+                width: 100px;
+                object-fit: cover;
+                padding: 10px;
+                margin: 10px;
+
+            }
+
+            h6 {
+                color: white;
+                font-size: 30px;
+                padding: 10px;
+                margin: 10px;
+
+            }
+        }
+    }
+
+
+
+}
+
+.div3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 950px;
+    margin: 50px auto;
+
+    img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        margin: 5px;
+    }
+
+    div {
+        width: 300px;
+        height: 300px;
+        margin: 5px;
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+            padding: 20px;
+            margin: 80px 20px;
+        }
+    }
+}
+
+.div4 {
+    background-color: #3e4a59;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    ;
+
+    h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 65px;
+        text-align: left;
+        margin: 50px 10px;
+        padding: 10px;
+        ;
+    }
+
+    p {
+        font-size: 19px;
+        margin: 20px 30px;
+        ;
+    }
+
+    button {
+        margin: 20px 30px;
+        ;
+        background-color: white;
+        font-weight: 800;
+        font-size: 15px;
+        ;
+        color: #3e4a59;
+        border: none;
+        padding: 13px 25px;
+        ;
+    }
+}
+
+.div5 {
+
+
+    :first-child 
+    {
+
+        *{
+            margin-right: 50px;
+
+        }
+        h1{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 60px;
+            margin-bottom: 20px;
+            text-align: right;
+
+        }
+
+        p{
+            text-align: right;
+
+        }
+    }
+
+    .div-clients {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        padding: 50px;
+
+        .div-un-client {
+            margin: 20px 50px;
+            width: 450px;
+            text-align: center;
+
+            img {
+                border-radius: 50%;
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+                margin: 20px auto;
+            }
+            h2{
+                margin: 40px auto;;
+            }
+        }
+    }
+}
+
+
+.div6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+
+    img {
+        width: 50vw;
+        height: 400px;
+        object-fit: cover;
+    }
+}
