@@ -1,20 +1,10 @@
 import '../../../styles/template2.css'
+import aboutus from "../../../assets/template2/aboutus4.jpg";
+import awards from "../../../assets/template2/awards.jpg";
+import benefits4 from "../../../assets/template2/benefits4.jpg";
+import travel from "../../../assets/template2/travel4.jpg";
 
 
-{/* <html>
-
-<head>
-    <title> Travel </title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="style.css">
-</head> */}
 
 function TemplateWebSite2() {
     return (
@@ -118,7 +108,7 @@ function TemplateWebSite2() {
 
         <div class="div-page4-container">
             <div>
-                <img src="img/travel4.jpg" />
+                <img src={travel} />
 
                 <h3>Travel</h3>
                 <p></p>
@@ -126,7 +116,7 @@ function TemplateWebSite2() {
             </div>
 
             <div>
-                <img src="img/benefits4.jpg" />
+                <img src={benefits4} />
 
                 <h3> Benefits</h3>
                 <p></p>
@@ -136,7 +126,7 @@ function TemplateWebSite2() {
 
 
             <div>
-                <img src="img/aboutus4.jpg" />
+                <img src={aboutus} />
 
                 <h3> About Us</h3>
                 <p></p>
@@ -146,7 +136,7 @@ function TemplateWebSite2() {
 
 
             <div>
-                <img src="img/awards.jpg" />
+                <img src={awards} />
                 <h3> Awards</h3>
                 <p></p>
 
