@@ -1,0 +1,334 @@
+.page-template9 {
+
+    .div0 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: black;
+
+        img {
+            width: 50vw;
+        }
+
+        div {
+            color: white;
+            text-align: center;
+
+            h1 {
+                margin: 30px 0;
+                font-size: 55px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+
+            button {
+                border: 0.5px solid white;
+                background-color: black;
+                border-radius: 5px;
+                padding: 20px 30px;
+                margin: 10px;
+                color: white;
+            }
+        }
+    }
+
+    .div1 {
+
+        padding: 50px 0;
+        text-align: center;
+
+        .div-contanier-img-texte {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .div-img-texte {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 50px;
+
+                img {
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 50%;
+                }
+
+                .div-texte {
+                    max-width: 200px;
+                    text-align: center;
+
+                    .prix {
+                        color: #a79f94;
+                        font-weight: 700;
+                        font-size: 22px;
+                    }
+
+                    .titre {
+                        font-family: Raleway, sans-serif;
+                        font-size: 23px;
+                        font-weight: 700;
+                    }
+
+                    .texte {
+                        font-style: italic;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .div2 {
+        background-color: black;
+        padding: 50px 0;
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        .div2-contanier-img-texte {
+
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+            .div2-img-texte {
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+                background-color: white;
+                padding: 30px;
+                ;
+                max-width: 250px;
+                min-width: 250px;
+
+                img {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                    margin-bottom: 15px;
+
+                }
+
+                .div-texte {
+
+                    text-align: center;
+
+                    .titre {
+                        font-family: Raleway, sans-serif;
+                        font-size: 23px;
+                        font-weight: 700;
+                        margin-bottom: 35px;
+                    }
+
+                    .texte {
+                        font-style: italic;
+                        margin-bottom: 35px;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .div3 {
+        background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7498296e4db8581c94ab1c35/uyy.jpg");
+        height: 90vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 60px 20px;
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        .div3-flex {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            align-items: center;
+            height: 75vh;
+            ;
+
+            div {
+                background-color: white;
+                padding: 25px;
+                border-radius: 15px;
+                height: 300px;
+                width: 320px;
+                padding-bottom: 25px;
+                ;
+
+                * {
+                    font-size: 20px;
+                    ;
+                }
+            }
+        }
+    }
+
+    .div4 {
+        background-color: #a79f94;
+        padding: 60px;
+        padding-bottom: 250px;
+
+        .contenu {
+            display: flex;
+            background-color: white;
+            width: 800px;
+            height: 400px;
+            margin: 0 auto;
+
+            img {
+                width: 400px;
+                height: 400px;
+                object-fit: cover;
+                margin: 0;
+                padding: 0;
+            }
+
+            .texte {
+                width: 400px;
+                height: 400px;
+                padding: 20px;
+            }
+        }
+    }
+
+    .div5 {
+        margin: -180px auto;
+        width: 100%;
+        margin-bottom: 50px;
+
+        .div5-contenu-recettes {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+
+            .div-une-recette {
+                width: 330px;
+                margin: 15px;
+
+                img {
+                    width: 330px;
+                    height: 370px;
+                    border-radius: 10px 10px 0 0;
+                    ;
+                    object-fit: cover;
+                }
+
+                h2 {
+                    font-size: 30px;
+                    ;
+                }
+
+                p {
+                    font-size: 20px;
+                    font-weight: 300;
+                }
+            }
+        }
+
+        .div-Sabonner-Newsletter-Location-Hours {
+            display: flex;
+            justify-content: space-around;
+            padding: 80px;
+        }
+
+        .div-Sabonner-Newsletter,
+        .div-Location-Hours {
+            width: 480px;
+
+            h2 {
+                font-size: 30px;
+                ;
+
+            }
+
+            p {
+                font-size: 20px;
+                font-weight: 400;
+            }
+        }
+
+        .adresse {
+            font-size: 24px;
+            font-weight: 700;
+            color: #a79f94;
+            text-decoration: underline;
+        }
+
+        .adresse:hover {
+            color: black;
+        }
+
+
+        .div-Sabonner-Newsletter {
+
+
+            p {
+                font-size: 17px;
+                font-weight: 400;
+            }
+
+            input {
+                border: 0.5px solid rgb(128, 130, 130);
+                padding: 9px 14px;
+                outline: none;
+                font-size: 17px;
+                width: 340px;
+                margin: 10px 0;
+
+            }
+
+            button {
+                padding: 9px 14px;
+                background-color: #a79f94;
+                color: white;
+                font-size: 17px;
+                text-transform: uppercase;
+                border: none;
+                margin: 10px 0;
+            }
+        }
+
+
+
+    }
+
+    .div6 {
+        padding: 50px;
+        ;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+
+        p,
+        h1 {
+            color: white;
+        }
+
+    }
+}
