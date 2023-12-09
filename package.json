@@ -2,7 +2,7 @@
   "name": "templates-websites",
   "version": "0.1.0",
   "private": true,
-  "homepage ": "http://safiylm.github.io/templates-websites",
+  "homepage ": "https://safiylm.github.io/templates-websites",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
