@@ -6,7 +6,7 @@ import ride from "../../../assets/template8/ride.png";
 
 function TemplateWebSite8() {
     return (
-        <div className="page-template">
+        <div className="page-template8">
 
             <div class="div0">
                 <h1>Your<br />
@@ -98,6 +98,10 @@ function TemplateWebSite8() {
                 <img src="https://images01.nicepage.com/12/9e/129e3635-3c43-474b-b0dd-97dd30c29a40.jpg"/>
             </div>
             <div className='div7'></div>
+
+            <footer>
+                <a href="https://nicepage.com/templates/preview/travel-assistant-12890?device=desktop">LIEN </a>
+            </footer>
         </div>
     );
 }
