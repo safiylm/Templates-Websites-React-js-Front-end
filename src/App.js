@@ -19,8 +19,8 @@ function App() {
       <Routes>
         <Route path="/" >
           <Route index element={<ListeTemplateWebSite />} />
-          <Route path="/templates-websites" element={<ListeTemplateWebSite />} />
-          <Route path="/templates-websites/template/1" element={<TemplateWebSite1 />} />
+          <Route path="/" element={<ListeTemplateWebSite />} />
+          <Route path="/template/1" element={<TemplateWebSite1 />} />
           <Route path="/template/2" element={<TemplateWebSite2 />} />
           <Route path="/template/3" element={<TemplateWebSite3 />} />
           <Route path="/template/4" element={<TemplateWebSite4 />} />
