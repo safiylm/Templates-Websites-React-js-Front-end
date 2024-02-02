@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e8c4c68.css",
-    "main.js": "/static/js/main.bd39ee45.js",
+    "main.css": "/static/css/main.e5bcc698.css",
+    "main.js": "/static/js/main.e9d13266.js",
     "static/js/787.ca46937c.chunk.js": "/static/js/787.ca46937c.chunk.js",
-    "static/media/montaign.jpg": "/static/media/montaign.7245f68cb7a57881aa59.jpg",
     "index.html": "/index.html",
-    "main.5e8c4c68.css.map": "/static/css/main.5e8c4c68.css.map",
-    "main.bd39ee45.js.map": "/static/js/main.bd39ee45.js.map",
+    "main.e5bcc698.css.map": "/static/css/main.e5bcc698.css.map",
+    "main.e9d13266.js.map": "/static/js/main.e9d13266.js.map",
     "787.ca46937c.chunk.js.map": "/static/js/787.ca46937c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e8c4c68.css",
-    "static/js/main.bd39ee45.js"
+    "static/css/main.e5bcc698.css",
+    "static/js/main.e9d13266.js"
   ]
 }
