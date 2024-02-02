@@ -1,45 +1,54 @@
 .page-liste-templates-website {
+    width: 100vw;
 
 
     .div-bar {
         width: 100%;
         height: 200px;
-        background-color: rgb(103, 53, 103);
+       // background: radial-gradient(circle, rgb(78, 193, 217) 0%, rgb(148, 186, 233) 100%);
+        background: radial-gradient(circle, #20364d 0%, rgb(51, 74, 102) 100%);
         color: white;
         text-align: center;
         line-height: 200px;
         font-size: 45px;
-        font-weight: 900;
+        font-weight: 600;
     }
 
     .div-liste-templates-website {
-        margin: 50px;
+        margin: 50px 10px;
         display: flex;
-        flex-wrap: nowrap;
-        overflow-x: scroll;
         flex-direction: row-reverse;
-        a {
-            text-decoration: none;
-            color: #232325;
-            margin: 15px;
-            width: 300px;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        .item {
+            margin: 25px;
+
+            a {
+                text-decoration: none;
+                color: #232325;
+                width: 420px;
+            margin: 10px;
 
 
-            .image {
-                border: 0.3px solid grey;
-                border-radius: 5px;
-                width: 350px;
-                height: auto;
-            }
+                .image {
+                    border: 0.3px solid grey;
+                    border-radius: 5px;
+                    width: 420px;
+                    height: 300px;
+                    object-fit: cover;
+                }
 
 
 
-            p {
-                margin: 0;
-                padding: 0;
-                text-align: center;
-                font-size: 22px;
+                p {
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    font-size: 19px;
 
+                }
             }
         }
     }

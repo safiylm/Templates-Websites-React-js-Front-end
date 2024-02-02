@@ -18,7 +18,6 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
 
 }
@@ -27,7 +26,7 @@
 .div-page1 .div-images #img2 {
     /* position:absolute; */
     margin: 10px;
-    width: 300;
+    width: 450px;
     height: auto;
 }
 
@@ -86,13 +85,14 @@
 /**----------------------------------------------**/
 
 .div-page2 {
-    background-image: url('../assets/template2/montaign.jpg');
+    background-image: url(http://localhost:3000/static/media/montaign.7245f68cb7a57881aa59.jpg);
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 100vh;
     width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: 100% 100%;
 }
 
 .div-3cartes-page2 {
@@ -581,6 +581,8 @@
     background-image: url('https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/94612f051cad576998525dbd/pexels-photo-4406619.jpeg');
     text-align: center;
     padding-top: 400px;
+    background-size: 100% 100%;
+
 
 }
 

@@ -10,9 +10,10 @@ function TemplateWebSite2() {
     return (
         <>
     <div class="div-page1">
-        <div class="div-images"><img id='img1' src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/de490d39e6395a82b7b308ff/pexels-photo-9336680.jpeg" />
-            <img id='img2' src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/8749f118498a5d7285c93e06/pexels-photo-9928414.jpeg" /></div>
-    
+        <div class="div-images">
+            <img id='img1' src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/de490d39e6395a82b7b308ff/pexels-photo-9336680.jpeg" />
+            <img id='img2' src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/8749f118498a5d7285c93e06/pexels-photo-9928414.jpeg" />
+        </div>
         <div class="div-quotes">
     
             <p> <svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" fill="currentColor" class="bi bi-quote"
