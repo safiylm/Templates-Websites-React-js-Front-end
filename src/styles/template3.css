@@ -1,5 +1,5 @@
 .div-image-container  {
-    padding: 50px;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@
 }
 
 .div-image-container h2{
-    padding: 30px;
+    padding: 10px;
     width: 850px;
     text-align: center;
     line-height: 55px;
