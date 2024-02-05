@@ -52,7 +52,11 @@ export const array_template_websites = [
         "titre" : "Citation",
         "image": "https://i.ibb.co/QQSyvHy/template10.png"
     },
-
+    {
+        "id": 11,
+        "titre" : "Slide",
+        "image": "https://i.ibb.co/VTWCjH3/template11.png"
+    },
 
 ]
 
