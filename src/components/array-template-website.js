@@ -47,6 +47,11 @@ export const array_template_websites = [
         "titre" : "Delicious breads",
         "image": "https://i.ibb.co/Nx0DCbL/template9.png"
     },
+    {
+        "id": 10,
+        "titre" : "Citation",
+        "image": "https://i.ibb.co/QQSyvHy/template10.png"
+    },
 
 
 ]

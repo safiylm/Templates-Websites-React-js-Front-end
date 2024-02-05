@@ -7,6 +7,7 @@ import TemplateWebSite6 from './components/template/6/index.js'
 import TemplateWebSite7 from './components/template/7/index.js'
 import TemplateWebSite8 from './components/template/8/index.js'
 import TemplateWebSite9 from './components/template/9/index.js'
+import TemplateWebSite10 from './components/template/10/index.js'
 
 import ListeTemplateWebSite from './components/liste-templates.js'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -29,6 +30,8 @@ function App() {
           <Route path="/template/7" element={<TemplateWebSite7 />} />
           <Route path="/template/8" element={<TemplateWebSite8 />} />
           <Route path="/template/9" element={<TemplateWebSite9 />} />
+          <Route path="/template/10" element={<TemplateWebSite10 />} />
+
         </Route>
       </Routes>
     </BrowserRouter>
