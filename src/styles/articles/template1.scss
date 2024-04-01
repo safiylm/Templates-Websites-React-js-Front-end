@@ -1,0 +1,18 @@
+.d-flex {
+    padding: 20px;
+    margin: 0 30px;
+
+    div{
+        font-size : 20px;
+        font-weight: 600;
+    }
+}
+.justify-content-end{
+    border: 2px solid black ;
+    border-left: none;
+    border-right:none ;
+    //margin: 0 30px;
+}
+ svg {
+    width: 35px;
+}

@@ -1,3 +1,4 @@
+import PhotoArticle1 from "../assets/article1.png"
 
 export const array_template_websites = [
 
@@ -56,6 +57,11 @@ export const array_template_websites = [
         "id": 11,
         "titre" : "Slide",
         "image": "https://i.ibb.co/VTWCjH3/template11.png"
+    },
+    {
+        "id": 12,
+        "titre" : "Blog article",
+        "image": PhotoArticle1 
     },
 
 ]
