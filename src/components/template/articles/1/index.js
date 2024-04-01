@@ -24,7 +24,13 @@ function ArticlesTemplate1() {
             </div>
 
             <div className="d-flex justify-content-between">
+
                 <div className='div-left'>
+                    <form>
+                        <h2>Recevez un e-mail chaque fois que nous publions un nouvel article !</h2>
+                        <input className="form-control" placeholder='E-mail' autoComplete='none' />
+                        <button className="btn btn-light">S'abonner</button>
+                    </form>
                 </div>
                 <div className='div-center'>
                     <h1 id="titre-h1">
@@ -53,13 +59,13 @@ function ArticlesTemplate1() {
                     <div id="texte">En plus des langages mentionnés ci-dessus, il existe également des frameworks frontend très populaires qui facilitent le développement de sites web interactifs et dynamiques.
 
                         Voici quelques-uns des frameworks les plus utilisés :
-
-                        - React : Développé par Facebook, React est un framework JavaScript qui permet de créer des interfaces utilisateur interactives. Il est largement utilisé et apprécié pour sa flexibilité et sa performance.
-
-                        - Angular : Développé par Google, Angular est un framework JavaScript complet pour la création d'applications web. Il offre de nombreuses fonctionnalités prêtes à l'emploi et facilite la structuration et la maintenance des projets.
-
-                        - Vue : Vue.js est un framework JavaScript progressif et facile à utiliser pour la construction d'interfaces utilisateur. Il est connu pour sa simplicité et sa courbe d'apprentissage douce, ce qui en fait un excellent choix pour les débutants.
-
+                        <ul>
+                            <li> React : Développé par Facebook, React est un framework JavaScript qui permet de créer des interfaces utilisateur interactives. Il est largement utilisé et apprécié pour sa flexibilité et sa performance.
+                            </li>
+                            <li>Angular : Développé par Google, Angular est un framework JavaScript complet pour la création d'applications web. Il offre de nombreuses fonctionnalités prêtes à l'emploi et facilite la structuration et la maintenance des projets.
+                            </li>
+                            <li>Vue : Vue.js est un framework JavaScript progressif et facile à utiliser pour la construction d'interfaces utilisateur. Il est connu pour sa simplicité et sa courbe d'apprentissage douce, ce qui en fait un excellent choix pour les débutants.
+                            </li> </ul>
                         Ces frameworks sont très populaires dans la communauté du développement web et offrent de nombreux avantages pour la création de sites web modernes et réactifs.
                     </div>
                     <h3>WebGl / ThreeJs</h3>
@@ -68,11 +74,14 @@ function ArticlesTemplate1() {
 
                         Three.js comme son nom le laisse penser est effectivement une bibliothèque (ou framework...) JavaScript. En général, les sites 3D sont crées en WebGL avec Three.js (sans oublier HTML, CSS,...) Ces langages permettent de passer vers la création de sites futuristes et sont probablement les meilleurs langages pour créer les plus beaux sites web du monde. Ainsi, voici quelques exemples de sites réalisés en 3D :
 
-                        • https://zen.ly/fr
-                        • https://live.vanmoof.com/
-                        • https://go.pioneer.com/cornrevolution
-                        • https://github.com/home
-                        • ...
+                        <ul>
+                            <li> https://zen.ly/fr</li>
+                            <li> https://live.vanmoof.com/</li>
+                            <li> https://go.pioneer.com/cornrevolution</li>
+                            <li> https://github.com/home</li>
+                            <li>...</li>
+
+                        </ul>
                     </div>
 
 
@@ -83,16 +92,18 @@ function ArticlesTemplate1() {
 
                         Envie de voir quelques exemples réalisés avec GSAP ? En voici quelques-un :
 
-                        • https://takeboost.com/
-                        • https://menudurable.ca/
-                        • https://yolele.com/
-                        • createur2site.fr
-                        • ...
+                        <ul>
+                            <li> https://takeboost.com/</li>
+                            <li> https://menudurable.ca/</li>
+                            <li> https://yolele.com/</li>
+                            <li> createur2site.fr</li>
+                            <li> ...</li>
+                        </ul>
                     </div>
 
                     <h2>Les meilleurs langages backend</h2>
                     <div id="texte">Il n’y a pas de meilleur langage à proprement parler côté backend puisque cela dépend de ce que vous devez construire. Il existe des milliers de langages de programmation mais voici les plus utilisés et les plus flexibles :</div>
-                    
+
                     <h3>PHP</h3>
                     <div id="texte">PHP est le langage le plus connu pour le back, il est d’ailleurs le pilier du CMS WordPress. PHP se modernise de plus en plus et s’éloigne peu à peu du simple langage de script vers un langage de programmation polyvalent. En outre, c’est un très bon langage pour créer un très bon site web. Il existe également de nombreux framework PHP incroyables comme Laravel et Symfony.</div>
 
@@ -113,6 +124,22 @@ function ArticlesTemplate1() {
 
                 </div>
                 <div className='div-right'>
+
+                    <div>
+                        <h2>Création de site internet</h2>
+                        <ul>
+                            <li>Comment créer un site internet ?</li>
+                            <li>  Créer un site internet professionnel</li>
+                            <li>   Pourquoi utiliser WordPress ?</li>
+                            <li>     Créer un site avec WordPress</li>
+                            <li>  Le no code et le low code</li>
+                            <li>      Webflow</li>
+                            <li>     Webflow vs WordPress</li>
+                            <li>  Langages de programmation web à apprendre</li>
+                        </ul>
+
+                    </div>
+
                 </div>
 
             </div>
