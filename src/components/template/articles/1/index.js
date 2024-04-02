@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import '../../../../styles/articles/template1.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
@@ -6,14 +5,14 @@ function ArticlesTemplate1() {
 
     return (
         <>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between" id="nav">
                 <div>Accueil</div>
                 <div>Création de site </div>
                 <div>Consultant SEO </div>
                 <div>Blog</div>
             </div>
 
-            <div className="d-flex justify-content-end">
+            <div className="d-flex justify-content-end"  id="nav">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
                     <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
                 </svg>
@@ -23,7 +22,7 @@ function ArticlesTemplate1() {
                 </svg>
             </div>
 
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between"  id="nav">
 
                 <div className='div-left'>
                     <form>
@@ -36,7 +35,7 @@ function ArticlesTemplate1() {
                     <h1 id="titre-h1">
                         Les meilleurs langages de programmation pour créer un site web (2023)
                     </h1>
-                    <p id="nb-commentaires">3 commentaires</p>
+                    <p id="nb-commentaires">2 commentaires</p>
                     <img src="https://createur2site.fr/wp-content/uploads/2022/02/meilleur-langages-programmation.png.webp" />
                     <div className='border-bottom'></div>
                     <div id="texte">
@@ -140,9 +139,92 @@ function ArticlesTemplate1() {
 
                     </div>
 
+
+                    <div className='div-besoin'>
+
+                        <h2>Vous avez besoin d'aide ?</h2>
+                        <p>N'hésitez pas ! Nous sommes experts en création de site et en référencement naturel (seo).</p>
+                        <button className="btn btn-dark">Contactez nous!</button>
+
+                    </div>
                 </div>
 
             </div>
+
+            <div className='div-commentaires'>
+
+                <div className="d-flex justify-content-between align-items-center">
+                    <div>
+                        <p><strong> Bah Ousmane</strong>	sur 7 décembre 2022 à 23 h 35 min</p>
+                        <p> La description est vraiment très Claire. C'est facile à comprendre. Merci beaucoup et bonne continuation.</p>
+                    </div>
+
+                    <div className='div-button'>
+                        <button>Reponse</button>
+                    </div>
+
+                </div>
+                <div className="d-flex justify-content-between align-items-center">
+                    <div>
+                        <p><strong>  AB</strong> sur 26 juin 2023 à 7 h 08 min</p>
+                        <p> Pas de react?</p>
+                    </div>
+                    <div>
+
+                        <div className='div-button'>
+                            <button>Reponse</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <form>
+                    <h2>Soummetre un commentaire </h2>
+                    <textarea class="form-control" placeholder='Commentaire *'></textarea>
+                    <input class="form-control" placeholder='Nom *' />
+                    <input class="form-control" placeholder="E-mail *" />
+                    <div className='div-button'>
+                        <button>Soumettre le commentaire</button>
+                    </div>
+                </form>
+            </div>
+
+            <div className="d-flex justify-content-around  align-items-center" id="prendrerdv">
+                <h1>Votre site WordPress est... ennuyeux ? Votre site web n'est pas en première page de Google ?
+                    <br />
+                    <br />
+                    Vous inquiétez pas. Parlons-en.</h1>
+                <button className="btn btn-light">Prendre rendez vous </button>
+                <img src="https://createur2site.fr/wp-content/uploads/2021/09/cluster-4.png.webp" alt='logo'/>
+            </div>
+
+            <footer className="d-flex justify-content-around">
+
+                <div  className="d-flex flex-column mb-3">
+                    <button  className="btn btn-light">Contactez nous</button>
+                    <div>contact@createur2site.fr</div>
+                    <div>06 51 89 35 83</div>
+                </div>
+
+                <div className="d-flex flex-column mb-5">
+                    <div> Créateur de site</div>
+                    <div>Création de site </div>
+                    <div> Créer site internet </div>
+                    <div> Créer un site WordPress </div>
+                    <div> Thème WordPress  </div>
+                </div>
+
+                <div className="d-flex flex-column mb-6">
+                    <div> SEO </div>
+                    <div>  Consultant SEO  </div>
+                    <div> Agence SEO</div>
+                    <div> Agence SEO Paris</div>
+                    <div>  Consultant SEO Paris </div>
+                    <div> Blog </div>
+                </div>
+            </footer>
         </>
 
     )
