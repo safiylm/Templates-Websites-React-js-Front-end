@@ -1,4 +1,5 @@
-import "../../../styles/articleRecette.scss"
+import "../../../../styles/Food-Restaurant-Nutrition/articleRecette.scss"
+
 function ArticleRecette({imageurl, titre}) {
 
     return (

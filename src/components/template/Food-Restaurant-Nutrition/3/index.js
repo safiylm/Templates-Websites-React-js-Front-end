@@ -1,5 +1,5 @@
-import "../../../styles/template7.scss"
-import ArticleRecette from "../7/articleRecette.js"
+import ArticleRecette from "../3/articleRecette.js"
+import '../../../../styles/Food-Restaurant-Nutrition/template3.scss';
 
 function TemplateWebSite7() {
 
