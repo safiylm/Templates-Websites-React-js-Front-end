@@ -1,7 +1,7 @@
 import ArticleRecette from "../3/articleRecette.js"
 import '../../../../styles/Food-Restaurant-Nutrition/template3.scss';
 
-function TemplateWebSite7() {
+function FoodRestaurantNutritionTemplate3() {
 
     return (
         <div className="page-blog-recette1">
@@ -117,4 +117,4 @@ function TemplateWebSite7() {
     );
 }
 
-export default TemplateWebSite7;
+export default FoodRestaurantNutritionTemplate3;

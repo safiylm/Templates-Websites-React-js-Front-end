@@ -4,7 +4,7 @@ import car from "../../../../assets/template8/car.png";
 import ocean from "../../../../assets/template8/ocean.png";
 import ride from "../../../../assets/template8/ride.png";
 
-function TemplateWebSite8() {
+function TravelTemplate1() {
     return (
         <div className="page-template8">
 
@@ -107,4 +107,4 @@ function TemplateWebSite8() {
 }
 
 
-export default TemplateWebSite8;
+export default TravelTemplate1;

@@ -6,7 +6,7 @@ import travel from "../../../../assets/template2/travel4.jpg";
 
 
 
-function TemplateWebSite2() {
+function TravelTemplate2() {
     return (
         <>
     <div class="div-page1">
@@ -259,4 +259,4 @@ function TemplateWebSite2() {
     );
 }
 
-export default TemplateWebSite2;
+export default TravelTemplate2;
