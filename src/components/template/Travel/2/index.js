@@ -1,8 +1,8 @@
-import '../../../styles/template2.css'
-import aboutus from "../../../assets/template2/aboutus4.jpg";
-import awards from "../../../assets/template2/awards.jpg";
-import benefits4 from "../../../assets/template2/benefits4.jpg";
-import travel from "../../../assets/template2/travel4.jpg";
+import '../../../../styles/Travel/template2.css'
+import aboutus from "../../../../assets/template2/aboutus4.jpg";
+import awards from "../../../../assets/template2/awards.jpg";
+import benefits4 from "../../../../assets/template2/benefits4.jpg";
+import travel from "../../../../assets/template2/travel4.jpg";
 
 
 

@@ -6,13 +6,13 @@ export const array_template_websites = [
         "id": 1,
         "titre" : "Handmade Bread",
         "image": "https://i.ibb.co/C6MmL7Y/template1.png",
-        "categorie" : ""
+        "categorie" : "Food-Restaurant-Nutrition"
     },
     {
         "id": 3,
         "titre" : "Interior studio projects",
         "image": "https://i.ibb.co/61bpJ5x/template3.png",
-        "categorie" : ""
+        "categorie" : "Interior-Design"
     },
     {
         "id": 2,
@@ -25,13 +25,14 @@ export const array_template_websites = [
         "id": 4,
         "titre" : "Motivation and creativity",
         "image": "https://i.ibb.co/m4pPQwP/template4.png",
-        "categorie" : ""
+        "categorie" : "Education"
+   
     },
     {
         "id": 5,
         "titre" : "Branding And Graphic Design",
         "image": "https://i.ibb.co/rdSHSnb/template5.png",
-        "categorie" : ""
+        "categorie" : "Art-Design"
     },
     {
         "id": 6,
@@ -61,19 +62,19 @@ export const array_template_websites = [
         "id": 10,
         "titre" : "Citation",
         "image": "https://i.ibb.co/QQSyvHy/template10.png",
-        "categorie" : ""
+        "categorie" : "Education"
     },
     {
         "id": 11,
         "titre" : "Slide",
         "image": "https://i.ibb.co/VTWCjH3/template11.png",
-         "categorie" : ""
+         "categorie" : "Slider"
     },
     {
         "id": 12,
         "titre" : "Blog article",
         "image": PhotoArticle1 ,
-        "categorie" : ""
+        "categorie" : "Education"
 
     },
 

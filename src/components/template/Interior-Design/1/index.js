@@ -1,5 +1,6 @@
-import '../../../styles/template3.css'
-function TemplateWebSite1() {
+import '../../../../styles/Interior-Design/template1.css'
+
+function InteriorDesignTemplate1() {
     return (
         <div className="page-template">
 
@@ -26,4 +27,4 @@ function TemplateWebSite1() {
     );
 }
 
-export default TemplateWebSite1;
+export default InteriorDesignTemplate1;

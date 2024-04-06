@@ -1,6 +1,6 @@
-import '../../../styles/template5.scss'
+import '../../../../styles/Art-Design/template1.scss'
 
-function TemplateWebSite5() {
+function ArtDesignTemplate1() {
     return (
         <div className="page-template5">
 
@@ -30,4 +30,4 @@ function TemplateWebSite5() {
     );
 }
 
-export default TemplateWebSite5;
+export default ArtDesignTemplate1;

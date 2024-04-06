@@ -1,5 +1,5 @@
-import '../../../styles/template4.css'
-function TemplateWebSite4() {
+import '../../../../styles/Education/template2.css';
+function EducationTemplate2() {
     return (
         <div className="page-template">
 
@@ -55,4 +55,4 @@ function TemplateWebSite4() {
     );
 }
 
-export default TemplateWebSite4;
+export default EducationTemplate2;

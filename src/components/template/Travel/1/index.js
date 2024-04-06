@@ -1,8 +1,8 @@
-import '../../../styles/template8.scss'
-import hiking from "../../../assets/template8/hiking.png";
-import car from "../../../assets/template8/car.png";
-import ocean from "../../../assets/template8/ocean.png";
-import ride from "../../../assets/template8/ride.png";
+import '../../../../styles/Travel/template1.scss'
+import hiking from "../../../../assets/template8/hiking.png";
+import car from "../../../../assets/template8/car.png";
+import ocean from "../../../../assets/template8/ocean.png";
+import ride from "../../../../assets/template8/ride.png";
 
 function TemplateWebSite8() {
     return (

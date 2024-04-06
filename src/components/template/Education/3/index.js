@@ -1,8 +1,6 @@
+import '../../../../styles/Education/template3.scss';
 
-//
-
-import '../../../styles/template10.scss'
-function TemplateWebSite10() {
+function EducationTemplate3() {
     return (
     <div className="page-template10">
         <img id="image0" src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/72e4da5cb21c5e65b1f4120b/pexels-photo-9525751.jpeg"/>
@@ -29,4 +27,4 @@ function TemplateWebSite10() {
     );
 }
 
-export default TemplateWebSite10;
+export default EducationTemplate3;

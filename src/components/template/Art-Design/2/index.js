@@ -1,5 +1,5 @@
 import {  useState } from 'react';
-import '../../../styles/template11.scss';
+import '../../../../styles/Art-Design/template2.scss'
 
   const  tab = [
     {
@@ -17,7 +17,7 @@ import '../../../styles/template11.scss';
       "metier": "Financial Director"
     },
   ];
-function TemplateWebSite11() {
+function ArtDesignTemplate2() {
 
   const [indexSlide, setIndexSlide] =useState(1);
 
@@ -73,4 +73,4 @@ function TemplateWebSite11() {
   );
 }
 
-export default TemplateWebSite11;
+export default ArtDesignTemplate2;

@@ -1,5 +1,6 @@
-import '../../../styles/template9.scss'
-function TemplateWebSite9() {
+import '../../../../styles/Food-Restaurant-Nutrition/template5.scss'
+
+function FoodRestaurantNutritionTemplate5() {
     return (
         <div className="page-template9">
             <div className='div0'>
@@ -274,4 +275,4 @@ function TemplateWebSite9() {
     );
 }
 
-export default TemplateWebSite9;
+export default FoodRestaurantNutritionTemplate5;

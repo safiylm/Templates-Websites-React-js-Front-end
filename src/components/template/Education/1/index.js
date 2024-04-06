@@ -1,8 +1,12 @@
-import '../../../../styles/articles/template1.scss';
+import '../../../../styles/Education/template1.scss';
 import 'bootstrap/dist/css/bootstrap.css';
 
-function ArticlesTemplate1() {
 
+
+function EducationTemplate1() {
+const goToLink = () => {
+    document.location.href='https://createur2site.fr/creation-site-internet/creer-site/langage-programmation/'
+}
     return (
         <>
             <div className="d-flex justify-content-between" id="nav">
@@ -203,7 +207,7 @@ function ArticlesTemplate1() {
             <footer className="d-flex justify-content-around">
 
                 <div  className="d-flex flex-column mb-3">
-                    <button  className="btn btn-light">Contactez nous</button>
+                    <button  className="btn btn-light" onClick={goToLink()}>Contactez nous</button>
                     <div>contact@createur2site.fr</div>
                     <div>06 51 89 35 83</div>
                 </div>
@@ -230,4 +234,4 @@ function ArticlesTemplate1() {
     )
 }
 
-export default ArticlesTemplate1;
+export default EducationTemplate1;

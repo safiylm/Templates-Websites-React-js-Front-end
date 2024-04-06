@@ -1,5 +1,6 @@
-import '../../../styles/template1.css'
-function TemplateWebSite1() {
+import '../../../../styles/Food-Restaurant-Nutrition/template4.css'
+
+function FoodRestaurantNutritionTemplate4() {
     return (
         <div className="page-template">
 
@@ -45,4 +46,4 @@ function TemplateWebSite1() {
     );
 }
 
-export default TemplateWebSite1;
+export default FoodRestaurantNutritionTemplate4;
