@@ -62,7 +62,6 @@ function ListeTemplateWebSite() {
 
 
 
-        <a href="https://nicepage.com/templates/preview/web-developer-portfolio-255570?device=desktop">Portfolio</a>
       </div>
 
     </div>

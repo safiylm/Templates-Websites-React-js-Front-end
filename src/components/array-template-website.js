@@ -84,6 +84,13 @@ export const array_template_websites = [
         "image":  "https://i.ibb.co/YTCP1SS/template13.png" ,
         "categorie" : "Food-Restaurant-Nutrition"
     },
+    {
+        "id": 14,
+        "titre" : "Portfolio",
+        "image": "https://i.ibb.co/ZHrcN1M/template14.png",
+        "categorie" : "Portfolio"
+    },
+    
 
 ]
 
