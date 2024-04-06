@@ -64,6 +64,12 @@ export const array_template_websites = [
         "image": PhotoArticle1 
     },
 
+    {
+        "id": 13,
+        "titre" : "Keto Birthday Cake",
+        "image":  "https://i.ibb.co/YTCP1SS/template13.png" 
+    },
+
 ]
 
 //https://bailard-fluid-demo-fr.squarespace.com/

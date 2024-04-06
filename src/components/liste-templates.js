@@ -12,7 +12,7 @@ function ListeTemplateWebSite() {
         <div>Technology</div>
         <div>Buissness & law </div>
         <div>Art & Design </div>
-        <div>Food & Restaurant </div>
+        <div>Food & Restaurant & Nutrition </div>
 
         <div>Education</div>
         <div>Interior</div>
