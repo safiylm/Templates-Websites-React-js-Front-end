@@ -6,7 +6,8 @@ import ArticleRecette from "../3/articleRecette.js"
 
 function FoodRestaurantNutritionTemplate2() {
 
-    return (<> <div className="page-template6">
+    return (<> <div className="div-FoodRestaurantNutrition2-container">
+    
     <div className="div0">
       <h1>Ne cherchez plus <br />
         Céto c'est là</h1>
@@ -14,7 +15,8 @@ function FoodRestaurantNutritionTemplate2() {
         Découvrez le régime Céto avec des conseils adaptés</p>
       <button>Acheter Pack </button>
     </div>
-    <div className="div1">
+
+    <div id="div1" className="d-flex flex-row justify-content-center align-items-center">
       <div className="div-les-articles">
 
         <ArticleRecette titre="Bon, mauvais gras ?" imageurl="https://static.wixstatic.com/media/5305c5_7ce56faed8ad4a4cbf0ee6c6b2019f55~mv2_d_3456_5184_s_4_2.jpg/v1/fill/w_608,h_608,fp_0.50_0.50,q_90,enc_auto/5305c5_7ce56faed8ad4a4cbf0ee6c6b2019f55~mv2_d_3456_5184_s_4_2.jpg" />
@@ -39,7 +41,7 @@ function FoodRestaurantNutritionTemplate2() {
         <img id="" src="https://static.wixstatic.com/media/5305c5_01c71640bbb44abea2f5eef501e05014~mv2_d_3868_2574_s_4_2.jpg/v1/crop/x_741,y_0,w_2393,h_2560/fill/w_682,h_720,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/GettyImages-525445909.jpg" />
 
 
-        <div className="div-resaux-sociaux">
+        <div className="d-flex flex-row">
           <p>RETROUVER MOI </p>
           <div>
             <a>
@@ -75,7 +77,7 @@ function FoodRestaurantNutritionTemplate2() {
 
     </div>
 
-    <div className="div2">
+    <div id="div2" className="d-flex flex-row justify-content-center align-items-center flex-wrap">
       <img src="https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Keto%20Diet%20blog/01.jpg"/>
       <img src="https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Keto%20Diet%20blog/02.jpg"/>
       <img src="https://static.parastorage.com/services/instagram-cdn/1.691.0/assets/ig-templates-accounts/Editor/Keto%20Diet%20blog/03.jpg"/>

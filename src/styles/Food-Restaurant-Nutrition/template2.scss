@@ -1,8 +1,7 @@
-
-
-.page-template6 {
+.div-FoodRestaurantNutrition2-container {
     margin: 0;
     padding: 0;
+
      .div0 {
          margin: 0;
          padding: 0;
@@ -42,17 +41,13 @@
          }
      }
  
-     .div1 {
+     #div1 {
          background-color: #f4f3ef !important;
-         display: flex;
-         flex-direction: row;
-         justify-content: center;
          height: auto;
          padding: 50px 0;
  
          .div-les-articles {
              width: 700px;
- 
          }
  
          .div-right-of-les-articles {
@@ -134,12 +129,8 @@
          }
      }
  
-     .div2{
-         display: flex;
-         flex-direction: row;
-         flex-wrap: wrap;
-         align-items: center;
-         justify-content: center;
+     #div2{
+    
          padding: 50px 0;
          img{
              width: 250px;

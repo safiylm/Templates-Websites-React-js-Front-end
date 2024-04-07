@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function FoodRestaurantNutritionTemplate1() {
 
-    return (<>  <div id="div-container">
+    return (<>  <div id="div-FoodRestaurantNutrition1-container">
 
     <h1>Keto Birthday Cake</h1>
 
