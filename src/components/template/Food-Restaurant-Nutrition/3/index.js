@@ -4,17 +4,17 @@ import '../../../../styles/Food-Restaurant-Nutrition/template3.scss';
 function FoodRestaurantNutritionTemplate3() {
 
     return (
-        <div className="page-blog-recette1">
-            <nav>
-                <div>
+        <div id="page-FoodRestaurantNutrition3-container" className="d-flex flex-column align-items-center" >
+            <nav className="d-flex flex-row align-items-center justify-content-between">
+                <div className="d-flex flex-row align-items-center justify-content-end">
                     <a>Accueil</a>
                     <a>Blog</a>
                     <a>A propos</a>
                 </div>
-                <div>
+                <div className="d-flex flex-row align-items-center justify-content-end">
                     <a>POIVRE ET SEL </a>
                 </div>
-                <div>
+                <div className="d-flex flex-row align-items-center justify-content-end">
                     <a>Connexion</a>
                     <a>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
@@ -51,8 +51,8 @@ function FoodRestaurantNutritionTemplate3() {
                
             </div>
 
-            <div className="div-auteur-livre">
-                <div className="div-auteur">
+            <div id="div-auteur-livre" className="d-flex flex-row align-items-center justify-content-between">
+                <div id="div-auteur" className="d-flex flex-row align-items-start justify-content-center">
                     <img src="https://static.wixstatic.com/media/5a6a58201a2e97b6b7c39b880738af97.jpg/v1/fill/w_247,h_247,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5a6a58201a2e97b6b7c39b880738af97.jpg" />
                     <div>
                         <h1>FAIT PAR SOPHIE AVEC AMOUR </h1>
@@ -60,7 +60,7 @@ function FoodRestaurantNutritionTemplate3() {
                     </div>
                 </div>
 
-                <div className="div-livre">
+                <div id="div-livre" className="d-flex flex-row align-items-start justify-content-center">
                     <img src="https://static.wixstatic.com/media/f2923d_30d42f78d2194aebab1f04bccf688171~mv2.jpg/v1/crop/x_0,y_36,w_812,h_812/fill/w_247,h_247,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Bookcover1%20copy.jpg" />
                     <div>
                         <h1>LIVRE DE RECETTE</h1>
@@ -69,7 +69,7 @@ function FoodRestaurantNutritionTemplate3() {
                 </div>
             </div>
 
-            <div className="div-sabonner">
+            <div id="div-sabonner" className="d-flex flex-row align-items-center justify-content-between">
                 <div>
                     <h1>S'INSCRIRE PAR E-MAIL</h1>
                     <div>
@@ -100,17 +100,12 @@ function FoodRestaurantNutritionTemplate3() {
                     <button id="button-mail">S'abonner</button>
                 </div>
             </div>
-            <footer>
+            <footer className="d-flex justify-content-between">
                 <div>Mentions légales</div>
                 <div>Politique en matière de cookies</div>
                 <div>Politique de confidentialité</div>
                 <div>Conditions d'utilisation</div>
                 <div> <a href="https://fr.wix.com/website-template/view/html/1719?originUrl=https%3A%2F%2Ffr.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fblog%2Ffood-travel&tpClick=view_button&esi=c2a43659-ad4b-4a43-b4d6-f5e3beaeb23b">lien </a></div>
-
-
-
-
-
             </footer>
 
         </div>
