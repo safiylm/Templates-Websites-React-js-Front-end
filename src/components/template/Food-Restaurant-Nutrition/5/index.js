@@ -1,9 +1,10 @@
 import '../../../../styles/Food-Restaurant-Nutrition/template5.scss'
+import 'bootstrap/dist/css/bootstrap.css';
 
 function FoodRestaurantNutritionTemplate5() {
     return (
-        <div className="page-template9">
-            <div className='div0'>
+        <div id="div-FoodRestaurantNutrition5-container">
+            <div id='div0' className='d-flex flex-row align-items-center'>
                 <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/9ccfd8184e705bad974787e7/ghgh-min.jpg" />
                 <div>
                     <h1> Delicious Breads</h1>
@@ -18,8 +19,8 @@ function FoodRestaurantNutritionTemplate5() {
                 <p>
                     Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br />
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.</p>
-                <div className='div-contanier-img-texte'>
-                    <div className="div-img-texte">
+                <div id='div-container-img-texte' className='d-flex flex-row flex-wrap align-items-center justify-content-center'>
+                    <div id="div-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/114eb3a7d170559dbf141d3b/r.jpg" />
                         <div className="div-texte">
                             <h3 className="titre"> baguette</h3>
@@ -28,7 +29,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div-img-texte">
+                    <div id="div-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/0cd587018da1567ca82ec0a8/rr.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">Farming bread</h3>
@@ -37,7 +38,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div-img-texte">
+                    <div id="div-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/fa992363623553128956b054/hh.jpg" />
                         <div className="div-texte">
                             <h3 className="titre"> Mixed Grain</h3>
@@ -46,7 +47,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div-img-texte">
+                    <div id="div-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/1790791acc975a71ba003ca1/hg.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">Milk Bread</h3>
@@ -55,7 +56,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div-img-texte">
+                    <div id="div-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/c05083dfe0235ffaa9a5cfbf/jhjhjh.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">Brown Bread</h3>
@@ -64,7 +65,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div-img-texte">
+                    <div id="div-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/c1a914846ece539fab7e5b32/j.jpg" />
                         <div className="div-texte">
                             <h3 className="titre"> Cheese Bread</h3>
@@ -79,8 +80,8 @@ function FoodRestaurantNutritionTemplate5() {
 
             <div className='div2'>
                 <h1> Brownies, Pastries, etc</h1>
-                <div className='div2-contanier-img-texte'>
-                    <div className="div2-img-texte">
+                <div id='div2-contanier-img-texte' className='d-flex flex-wrap flex-row align-items-center justify-content-center'>
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/fggggg.jpg" />
                         <div className="div-texte">
                             <h3 className="titre"> croissant</h3>
@@ -88,7 +89,7 @@ function FoodRestaurantNutritionTemplate5() {
                             <p>More</p>
                         </div>
                     </div>
-                    <div className="div2-img-texte">
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/yyyy.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">  Brownies</h3>
@@ -97,7 +98,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div2-img-texte">
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/f5f4b03a-6b27-3595-ba4e-7b894cc961a3.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">  Brownies</h3>
@@ -106,7 +107,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div2-img-texte">
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/444.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">  Brownies</h3>
@@ -115,7 +116,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div2-img-texte">
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/c91fa21f-6a02-001e-d59f-2125c9c711bd.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">  Brownies</h3>
@@ -124,7 +125,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div2-img-texte">
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/96a8f2c7-47a4-66cb-fec2-68902bf475cf.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">  Brownies</h3>
@@ -133,7 +134,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div2-img-texte">
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/3ec2a0c1-031e-107f-1950-2cfd3f6314ce.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">  Brownies</h3>
@@ -142,7 +143,7 @@ function FoodRestaurantNutritionTemplate5() {
                         </div>
                     </div>
 
-                    <div className="div2-img-texte">
+                    <div id="div2-img-texte" className='d-flex flex-column align-items-center justify-content-center'>
                         <img src="https://assets.nicepagecdn.com/d2cc3eaa/3284316/images/444666.jpg" />
                         <div className="div-texte">
                             <h3 className="titre">  Brownies</h3>
@@ -156,7 +157,7 @@ function FoodRestaurantNutritionTemplate5() {
 
             <div className='div3'>
                 <h1>Sweets </h1>
-                <div className='div3-flex'>
+                <div id='div3-flex' className='d-flex flex-wrap flex-row align-items-center justify-content-evenly'>
                     <div>
 
                         <h3>Cookies</h3>
@@ -203,7 +204,7 @@ function FoodRestaurantNutritionTemplate5() {
             </div>
 
             <div className='div5'>
-                <div className='div5-contenu-recettes'>
+                <div id='div5-contenu-recettes' className='d-flex flex-row align-items-center justify-content-center'>
                     <div className='div-une-recette'>
                         <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8baae157ffbe56548790d776/yty.jpg" />
                         <h2>Breads</h2>
@@ -249,10 +250,10 @@ function FoodRestaurantNutritionTemplate5() {
                 </div>
             </div>
 
-           
 
-            <div className='div6'>
-            <div>
+
+            <div id='div6' className='d-flex flex-row align-items-center justify-content-around'>
+                <div>
                     <h1>Headline</h1>
                     <p>Sample text. Click to select the Text Element.</p>
                 </div>
@@ -260,17 +261,17 @@ function FoodRestaurantNutritionTemplate5() {
                     <h1>Headline</h1>
                     <p>Sample text. Click to select the Text Element.</p>
                 </div>
-              
+
                 <div>
                     <h1>Headline</h1>
                     <p>Sample text. Click to select the Text Element.</p>
                     <a href="https://nicepage.com/templates/preview/delicious-breads-4883213?device=desktop" >
-                Lien </a>
+                        Lien </a>
                 </div>
             </div>
 
 
-          
+
         </div>
     );
 }

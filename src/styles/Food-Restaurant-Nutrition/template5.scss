@@ -1,9 +1,7 @@
-.page-template9 {
+#div-FoodRestaurantNutrition5-container {
+    font-size: 16px;
 
-    .div0 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
+    #div0 {
         background-color: black;
 
         img {
@@ -30,6 +28,15 @@
                 padding: 20px 30px;
                 margin: 10px;
                 color: white;
+                transition: 1000ms;
+
+            }
+
+            button:hover{
+                background-color: white;
+                color: black;
+                transition: 1000ms;
+
             }
         }
     }
@@ -39,26 +46,17 @@
         padding: 50px 0;
         text-align: center;
 
-        .div-contanier-img-texte {
+        #div-container-img-texte {
 
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+            #div-img-texte {
 
-            .div-img-texte {
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 margin: 50px;
 
                 img {
                     width: 300px;
                     height: 300px;
                     border-radius: 50%;
+                    margin-bottom: 15px;
                 }
 
                 .div-texte {
@@ -79,6 +77,8 @@
 
                     .texte {
                         font-style: italic;
+                        font-size: 16px;
+
                     }
 
                 }
@@ -96,24 +96,13 @@
             text-align: center;
         }
 
-        .div2-contanier-img-texte {
+        #div2-contanier-img-texte {
 
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+            #div2-img-texte {
 
-            .div2-img-texte {
-
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 margin: 20px;
                 background-color: white;
                 padding: 30px;
-                ;
                 max-width: 250px;
                 min-width: 250px;
 
@@ -140,7 +129,7 @@
                     .texte {
                         font-style: italic;
                         margin-bottom: 35px;
-
+                        font-size: 16px;
                     }
                 }
             }
@@ -160,14 +149,8 @@
             color: white;
         }
 
-        .div3-flex {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            align-items: center;
+        #div3-flex {
             height: 75vh;
-            ;
 
             div {
                 background-color: white;
@@ -176,11 +159,14 @@
                 height: 300px;
                 width: 320px;
                 padding-bottom: 25px;
-                ;
 
-                * {
-                    font-size: 20px;
-                    ;
+                h3 {
+                    font-size: 21px;
+                    margin-bottom: 25px;
+                }
+
+                p {
+                    font-size: 16px;
                 }
             }
         }
@@ -219,10 +205,7 @@
         width: 100%;
         margin-bottom: 50px;
 
-        .div5-contenu-recettes {
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        #div5-contenu-recettes {
             width: 100%;
 
             .div-une-recette {
@@ -233,13 +216,11 @@
                     width: 330px;
                     height: 370px;
                     border-radius: 10px 10px 0 0;
-                    ;
                     object-fit: cover;
                 }
 
                 h2 {
                     font-size: 30px;
-                    ;
                 }
 
                 p {
@@ -316,14 +297,9 @@
 
     }
 
-    .div6 {
+    #div6 {
         padding: 50px;
-        ;
         background-color: black;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-around;
 
         p,
         h1 {
