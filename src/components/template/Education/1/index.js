@@ -8,7 +8,7 @@ const goToLink = () => {
     document.location.href='https://createur2site.fr/creation-site-internet/creer-site/langage-programmation/'
 }
     return (
-        <>
+        <div id="div-Education1-container">
             <div className="d-flex justify-content-between" id="nav">
                 <div>Accueil</div>
                 <div>Création de site </div>
@@ -229,7 +229,7 @@ const goToLink = () => {
                     <div> Blog </div>
                 </div>
             </footer>
-        </>
+        </div>
 
     )
 }

@@ -1,5 +1,6 @@
 import {  useState } from 'react';
 import '../../../../styles/Art-Design/template2.scss'
+import 'bootstrap/dist/css/bootstrap.css';
 
   const  tab = [
     {
@@ -34,15 +35,16 @@ function ArtDesignTemplate2() {
 
   }
   return (
-    <div className="page-template11">
+    <div id="page-template11" className='d-flex flex-row align-items-center justify-content-between'>
       <button  className='right' onClick={precedent}>
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" className="bi bi-chevron-left" viewBox="0 0 16 16">
           <path fillRule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0" />
         </svg>
       </button>
-      <div className='liste-profil'>
+      <div id='liste-profil' className='d-flex flex-column align-items-center justify-content-center'>
       {tab.filter(p => p.id == indexSlide ).map((item)=>(
-          <div className='profil' key={item.id}>
+          
+          <div id='profil' key={item.id} className='d-flex flex-column align-items-center justify-content-center'>
             <img src={item.image } />
             <div id="texte">{item.texte}</div>
             <div id="nom">{item.nom}</div>

@@ -1,0 +1,579 @@
+#div-page1 {
+    padding-top: 70px;
+    background-color: rgba(213, 213, 233, 0.232);
+    margin: 0;
+    width: 100%;
+    padding-bottom: 80px;
+
+    #div-images {
+
+        margin: 0;
+
+        #img1,
+        #img2 {
+            /* position:absolute; */
+            margin: 10px;
+            width: 450px;
+            height: auto;
+        }
+    }
+
+    #div-quotes {
+        width: 100%;
+
+        h3 {
+            font-family: Roboto, sans-serif;
+            font-size: 30px;
+            font-weight: 100;
+            text-align: center;
+            padding: 10px 50px;
+
+        }
+
+        p {
+            text-align: center;
+        }
+
+        h5 {
+            font-size: 20px;
+            text-align: center;
+
+        }
+    }
+}
+
+
+
+/**----------------------------------------------**/
+
+#div-page2 {
+    background-image: url(http://localhost:3000/static/media/montaign.7245f68cb7a57881aa59.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: 100% 100%;
+
+    .div-3cartes-page2 {
+        text-align: center;
+        background-color: #ffffff;
+        width: 300px;
+        height: auto;
+        padding: 30px 12px;
+        margin: 25px;
+        border-radius: 9px;
+
+        img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+
+        h4 {
+            font-weight: 700;
+            padding: 25px 0;
+        }
+    }
+}
+
+/*  */
+
+.div-page3 {
+    text-align: center;
+
+    h1 {
+        font-family: 'Playfair Display', serif !important;
+        width: 682px;
+        font-weight: 700;
+        font-size: 4.5rem;
+        margin: 60px auto 0;
+        border-bottom: 2px solid darkslateblue;
+        width: 80%;
+        margin: 40px auto;
+        padding: 40px 0;
+    }
+
+    h2 {
+        font-weight: 100;
+        margin: 40px 10px;
+    }
+
+    h3 {
+        font-size: 25px;
+        font-weight: 100;
+        text-transform: uppercase;
+        color: #b7d1cd;
+    }
+
+    #div-gallery {
+        margin: 50px 0;
+
+        * {
+            margin-top: 20px;
+        }
+
+        .div-left,
+        .div-right {
+            padding: 4px;
+            width: auto;
+            height: min-content;
+        }
+
+        .div-left {
+
+            img {
+                width: 240px;
+                height: auto;
+                margin-right: 10px;
+            }
+
+            .div-left-child1 {
+                width: 500px;
+                background-color: #f4f5f7;
+                padding: 10px;
+
+                h3 {
+                    font-size: 28px;
+                }
+
+                p {
+                    font-size: 18px;
+                }
+            }
+
+            .div-left-child2 {
+                width: 500px;
+                background-color: #ffffff;
+            }
+        }
+
+        .div-right {
+
+            img {
+                height: auto;
+                width: 250px;
+                margin-bottom: 80px;
+            }
+
+            div {
+                margin-left: 0px;
+
+                p {
+                    height: auto;
+                    width: 300px;
+                    color: #b7d1cd;
+                    font-size: 29px;
+                    text-align: center;
+                }
+            }
+        }
+
+    }
+}
+
+
+
+@media screen and (max-width:800px) {
+    .div-page3 .div-gallery {
+        flex-direction: column;
+        height: auto;
+        background-size: auto 100%;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .div-gallery .div-right {
+        display: flex;
+        width: 508px;
+        flex-wrap: wrap;
+    }
+
+    .div-gallery .div-right div p {
+        width: 200px;
+        margin: 0;
+        font-size: 22px;
+    }
+
+    .div-gallery .div-right div {
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 22px;
+        flex-wrap: wrap;
+    }
+
+    .div-gallery .div-right img {
+        margin-bottom: 10px;
+        width: 240px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .div-page3 .div-gallery .div-left {
+
+        width: 90%;
+    }
+
+    .div-gallery .div-left .div-left-child1 {
+        width: 100%;
+    }
+
+    .div-gallery .div-left h3 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .div-gallery .div-gallery .div-left .div-left-child1 p {
+        font-size: 24px;
+        margin-top: 30px;
+    }
+
+
+    .div-gallery .div-left-child2 img {
+        margin-right: 0px;
+        width: 100%;
+    }
+
+    .div-gallery .div-left-child2 div {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .div-gallery .div-left-child2 {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .div-gallery .div-right img,
+    .div-gallery .div-right div {
+        width: 100%;
+        margin: 20px 0;
+
+    }
+
+    .div-gallery .div-right {
+        width: 90%;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .div-gallery .div-right div {
+        margin-left: 0;
+    }
+}
+
+
+/* ----------------------------------- */
+.div-page4 {
+    background-color: #f5fafa;
+    padding-bottom: 40px;
+
+    h1 {
+        padding: 35px 0;
+        text-align: center;
+    }
+
+    h2 {
+        padding-bottom: 25px;
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+}
+
+.div-page4-container {
+    div {
+        width: 250px;
+        padding: 45px 10px;
+        margin: 5px;
+        background-color: #ffffff;
+        text-align: center;
+
+        img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:450px) {
+    .div-page4-container div {
+        width: 80%;
+        max-width: 320px;
+    }
+
+}
+
+
+/* ------------------------------------------ */
+.div-page5 {
+    padding: 50px;
+
+    .left {
+        width: 400px;
+        text-align: center;
+
+        img {
+            width: 300px;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            color: #b7d1cd;
+            line-height: 40px;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            font-weight: 800;
+        }
+
+        a {
+            margin: 20px 0;
+            font-weight: 800;
+            color: black;
+        }
+    }
+
+    .right {
+        .right-child1 {
+            font-size: 23px;
+            background-color: #f2f2f2;
+            width: 500px;
+            padding: 50px;
+            text-align: center;
+            line-height: 40px;
+            margin-bottom: 20px;
+
+            h3 {
+                color: #b7d1cd;
+                font-weight: 800;
+                font-size: 35px;
+                margin-bottom: 30px;
+            }
+        }
+
+        .right-child2 {
+            div {
+                padding: 20px;
+                width: 250px;
+            }
+
+            img {
+                padding: 20px;
+                padding-right: 0;
+                width: 350px;
+                height: auto;
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px) {
+    .div-page5 {
+        padding: 10px;
+    }
+
+    .left {
+        display: flex;
+        width: 80%;
+        flex-wrap: wrap;
+
+        * {
+            margin: 15px;
+        }
+
+        h3 {
+            padding-top: 35px;
+
+        }
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .div-page5 {
+        padding: 0px;
+    }
+
+    .left h3 {
+        padding-bottom: 45px;
+    }
+
+
+    .right {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-child1 {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .right-child2 {
+        width: 90%;
+        padding: 0;
+
+        img {
+            width: 100%;
+            padding: 0;
+            ;
+            margin: 10px 0;
+        }
+    }
+
+}
+
+/* ----------------------------------------- */
+.div-page6 {
+    background-color: #f2f2f2;
+    padding: 70px 10px;
+
+    h1 {
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+
+    .div-page6-container {
+
+        margin-bottom: 40px;
+
+        div {
+            margin: 20px;
+            background-color: #ffffff;
+            padding: 15px;
+
+            img {
+                width: 250px;
+                height: 250px;
+                margin: 0 auto;
+            }
+
+            h2 {
+                font-size: 25px;
+                padding: 15px;
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                color: #b3b3b3;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .div-page6-container div img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .div-page6-container div img {
+        width: 280px;
+        height: 280px;
+    }
+}
+
+/* ---------------------------------------- */
+
+.div-page7 {
+    background-image: url('https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/94612f051cad576998525dbd/pexels-photo-4406619.jpeg');
+    text-align: center;
+    padding-top: 400px;
+    background-size: 100% 100%;
+
+    h1 {
+        font-weight: 100;
+        color: #f5fafa;
+    }
+
+    p {
+        padding: 50px 100px;
+        font-size: 21px;
+        color: #f5fafa;
+        font-weight: 100;
+
+    }
+
+    .div-page7-icons svg {
+        margin: 15px;
+        color: white;
+        margin: 50px;
+    }
+
+    .div-page7-input {
+        .form-control {
+            width: 600px;
+            height: 40px;
+            border-radius: 5px 0px 0px 5px;
+        }
+
+        button {
+            background-color: #c9dedb;
+            border: none;
+            height: 40px;
+            color: #556765;
+            border-radius: 0px 5px 5px 0px;
+            padding: 2px 9px;
+        }
+    }
+
+
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    .div-page7 {
+
+        padding-top: 300px;
+
+        p {
+            padding: 50px 30px;
+        }
+
+        .div-page7-input .form-control {
+            width: 70%;
+        }
+    }
+
+}
+
+
+
+.div-page8 {
+    background-color: #333333;
+    color: white;
+    height: 100px;
+    text-align: center;
+    padding: 35px;
+
+    a {
+        /* text-decoration: none ; */
+        color: #ffffff;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+
+    .div-page8 {
+        padding-bottom: 70px;
+        height: 140px;
+
+    }
+}

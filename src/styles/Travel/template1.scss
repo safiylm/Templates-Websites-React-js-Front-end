@@ -1,4 +1,4 @@
-.page-template8 {
+#div-Travel1-container {
     .div0 {
         background-image: url("https://images01.nicepage.com/95/94/959442e7ce67c27b19ade3667cfeba2d.jpeg");
         height: 100vh;
@@ -10,19 +10,14 @@
         h1 {
             padding-top: 50vh;
             padding-right: 10vh;
-
             text-align: right;
             font-size: 80px;
             color: white;
         }
     }
 
-    .div1 {
+    #div1 {
         background-color: white;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
         margin-bottom: 40px;
 
         .texte {
@@ -36,14 +31,12 @@
                 font-weight: 700;
                 padding: 10px;
                 margin: 10px;
-                ;
             }
 
             p {
                 font-weight: 400;
                 font-size: 17px;
                 line-height: 26px;
-                ;
                 font-style: normal;
                 color: rgb(56, 55, 55);
             }
@@ -72,28 +65,18 @@
                 font-size: 60px;
                 font-style: normal;
                 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
             }
 
             p {
                 line-height: 25px;
                 font-size: 17px;
-
             }
         }
 
-        .liste {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
+        #liste {
             padding: 20px 100px 100px 100px;
 
-            .item {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                justify-content: center;
+            #item {
 
                 img {
                     height: 100px;
@@ -118,12 +101,7 @@
 
     }
 
-    .div3 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+    #div3 {
         width: 950px;
         margin: 50px auto;
 
@@ -148,15 +126,10 @@
         }
     }
 
-    .div4 {
+    #div4 {
         background-color: #3e4a59;
         color: white;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
         padding: 100px;
-        ;
 
         h1 {
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -164,31 +137,27 @@
             text-align: left;
             margin: 50px 10px;
             padding: 10px;
-            ;
         }
 
         p {
             font-size: 19px;
             margin: 20px 30px;
-            ;
         }
 
         button {
             margin: 20px 30px;
-            ;
             background-color: white;
             font-weight: 800;
             font-size: 15px;
-            ;
             color: #3e4a59;
             border: none;
             padding: 13px 25px;
-            ;
         }
     }
 
     .div5 {
 
+        margin: 50px;
 
         :first-child {
 
@@ -211,11 +180,7 @@
             }
         }
 
-        .div-clients {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
+        #div-clients {
             padding: 50px;
 
             .div-un-client {
@@ -240,12 +205,7 @@
     }
 
 
-    .div6 {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+    #div6 {
         width: 100%;
 
         img {

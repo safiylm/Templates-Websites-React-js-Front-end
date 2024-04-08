@@ -1,11 +1,16 @@
 import '../../../../styles/Art-Design/template1.scss'
+import 'bootstrap/dist/css/bootstrap.css';
+
+
 
 function ArtDesignTemplate1() {
+
     return (
-        <div className="page-template5">
+        <div id="div-ArtDesign1-container">
 
             <div className="div1"></div>
-            <div className="div2">
+           
+            <div id="div2" className="d-flex flex-row flex-wrap justify-content-evenly">
                 <div className="left">
                     <img id="croissant" src="//images01.nicepage.com/c461c07a441a5d220e8feb1a/8f9c6b62b47251409226f758/fddfdf.png" />
 
@@ -14,7 +19,7 @@ function ArtDesignTemplate1() {
                     <p>Images from <a href=""> Freepik</a></p>
                     <button>Learn More</button>
                 </div>
-                <div className="right">
+                <div id="right" className="d-flex flex-column align-items-end">
 
                     <img id="sphere" src="//images01.nicepage.com/c461c07a441a5d220e8feb1a/36a0d48f91ce5fedbb5d4f16/aaaaa-min.png" />
                     <img id="cube" src="//images01.nicepage.com/c461c07a441a5d220e8feb1a/d96b7f93d0a35d2fb6095f03/s.png" />
