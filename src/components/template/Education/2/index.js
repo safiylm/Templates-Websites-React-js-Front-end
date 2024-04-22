@@ -1,11 +1,11 @@
-import '../../../../styles/Education/template2.css';
+import '../../../../styles/Education/template2.scss';
 function EducationTemplate2() {
     return (
         <div className="page-template">
 
-            <div className='div-container-template4'>
+            <div className='template4 d-flex flex-column align-items-center justify-content-center'>
 
-                <div className='div-container-template4-column'>
+                <div className='column d-flex flex-row align-items-center justify-content-center' >
                     <div>
                         <img src="https://images01.nicepage.com/c461c07a441a5d220e8feb1a/9dd23942ac1f58c7814b2d30/fdfff.jpg" />
                     </div>
@@ -24,8 +24,8 @@ function EducationTemplate2() {
 
                 </div>
 
-                <div className='div-container-template4-column'>
-                <div className="div-text">
+                <div className='column d-flex flex-row align-items-center justify-content-center'>
+                <div className="div-text d-flex flex-column align-items-center justify-content-center">
 
                         <h1>Motivation</h1>
                         <p>
