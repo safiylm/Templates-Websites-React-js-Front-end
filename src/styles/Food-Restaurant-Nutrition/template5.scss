@@ -32,13 +32,26 @@
 
             }
 
-            button:hover{
+            button:hover {
                 background-color: white;
                 color: black;
                 transition: 1000ms;
 
             }
         }
+    }
+
+    @media(max-width:710px) {
+        #div0 {
+            flex-direction: column !important;
+
+            img {
+                width: 90vw;
+            }
+        }
+
+
+
     }
 
     .div1 {
@@ -170,6 +183,18 @@
                 }
             }
         }
+
+        @media(max-width:710px) {
+            height: auto;
+
+            #div3-flex {
+                height: fit-content;
+
+                div {
+                    margin: 10px;
+                }
+            }
+        }
     }
 
     .div4 {
@@ -197,6 +222,31 @@
                 height: 400px;
                 padding: 20px;
             }
+        }
+
+        @media(max-width:710px) {
+            padding: 50px 10px;
+
+            .contenu {
+                flex-direction: column;
+                width: 90vw;
+                height: auto;
+
+                img {
+                    width: 90vw;
+                    height: auto;
+
+                }
+
+                .texte {
+                    width: 90vw;
+                    padding: 10px;
+                    height: auto;
+
+                }
+
+            }
+
         }
     }
 
@@ -230,10 +280,30 @@
             }
         }
 
+        @media(max-width:710px) {
+
+            margin: 10px auto;
+            width: 100vw;
+
+            #div5-contenu-recettes {
+                flex-direction: column !important;
+                padding: 0 30px;
+            }
+        }
+
         .div-Sabonner-Newsletter-Location-Hours {
             display: flex;
             justify-content: space-around;
             padding: 80px;
+        }
+
+        @media(max-width:710px) {
+            .div-Sabonner-Newsletter-Location-Hours {
+                flex-direction: column;
+                padding:30px 0 ;
+                text-align: center;
+
+            }
         }
 
         .div-Sabonner-Newsletter,
@@ -242,8 +312,6 @@
 
             h2 {
                 font-size: 30px;
-                ;
-
             }
 
             p {
@@ -293,7 +361,15 @@
             }
         }
 
+        @media(max-width:710px) {
+            .div-Sabonner-Newsletter,
+            .div-Location-Hours {
+                margin: 30px 0;
+                width: 100vw;
+                padding: 10px;
+            }
 
+        }
 
     }
 
@@ -304,6 +380,12 @@
         p,
         h1 {
             color: white;
+        }
+
+        @media(max-width:710px) {
+            flex-direction: column !important;
+
+
         }
 
     }
