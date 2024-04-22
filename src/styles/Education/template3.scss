@@ -1,12 +1,10 @@
-body{ margin: 0;
-    padding: 0;}
+body {
+    margin: 0;
+    padding: 0;
+}
+
 .page-template10 {
-   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    
+    width: 100vw;
 
     #image0 {
         width: 700px;
@@ -42,15 +40,39 @@ body{ margin: 0;
         padding-bottom: 20px;
         font-weight: 700;
     }
-footer{
-    background-color: black;
-    width: 100vw;
-    height: 80px;
-    color: white;
-    text-align: center;
-    line-height: 80px;
-    bottom: 0;
-    left: 0;
-    position: relative;
+
+    footer {
+        background-color: black;
+        width: 100vw;
+        height: 80px;
+        color: white;
+        text-align: center;
+        line-height: 80px;
+        bottom: 0;
+        left: 0;
+        position: relative;
+    }
 }
+
+@media(max-width:750px) {
+    .page-template10 {
+        width: 100vw;
+    
+        #image0 {
+            width: 100vw;
+            height: 35vh;
+            object-fit: cover;
+
+        }
+    
+        #citation-content {
+            width: 100vw;
+            padding: 20px 7px;
+            font-size: 25px;
+        }
+
+        #auteur {
+            margin-bottom: 65px;
+        }
+    }
 }
