@@ -11,7 +11,7 @@ function FoodRestaurantNutritionTemplate1() {
 
     <div id="div-image-ingredients-nutrition-facts">
         <img src="https://images03.nicepage.com/c461c07a441a5d220e8feb1a/81b5b5a1d3c257068eb92a73/ghcj.jpg" alt="image du gateau" />
-        <div class="d-flex justify-content-center">
+        <div class="d-flex flex-wrap justify-content-center">
             <div class="colomn">
                 <h2>Ingredients</h2>
                 <div>1 1/2 cups blanched almond flour <br/>

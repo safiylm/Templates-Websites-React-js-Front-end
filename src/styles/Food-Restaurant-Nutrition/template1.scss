@@ -22,7 +22,7 @@
 
 
     #div-image-ingredients-nutrition-facts {
-        width: 700px !important;
+        width: 700px;
         margin: 50px auto;
 
         img {
@@ -52,6 +52,48 @@
 
         .d-flex .colomn:last-child {
             background-color: #f2f2f2;
+        }
+    }
+}
+
+@media(max-width:650px) {
+
+    #div-FoodRestaurantNutrition1-container {
+        padding: 20px 0;
+        width: 100vw;
+
+
+        #div-image-ingredients-nutrition-facts {
+            width: 90vw;
+            margin: 0 auto;
+            padding: 0;
+
+            img{
+            width: 90vw;
+
+            }
+
+            .d-flex {
+                flex-direction: column !important;
+                width: 90vw !important;
+           
+                .colomn {
+                width: 90vw !important;
+
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:450px) {
+
+    #div-FoodRestaurantNutrition1-container {
+       
+
+        #div-image-ingredients-nutrition-facts {
+         
+            padding: 0;
         }
     }
 }
