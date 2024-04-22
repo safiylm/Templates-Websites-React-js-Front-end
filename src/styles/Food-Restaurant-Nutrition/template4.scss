@@ -9,7 +9,7 @@
         padding: 0 150px;
     }
 
-    #ligne{
+    #ligne {
         margin: 30px 0;
     }
 
@@ -40,5 +40,39 @@
 
     .texte {
         font-style: italic;
+    }
+
+
+
+    @media(max-width:950px) {
+        h1 {
+            padding: 0 10px;
+        }
+
+        .div-texte {
+            max-width: 300px !important;
+            width: 300px;
+            padding: 20px 0;
+        }
+
+        .item {
+            flex-direction: column !important;
+        }
+
+
+
+    }
+
+
+    @media(max-width:710px) {
+        #ligne {
+            flex-direction: column !important;
+
+        }
+
+        .inversecolumn {
+            flex-direction: column-reverse !important;
+        }
+
     }
 }

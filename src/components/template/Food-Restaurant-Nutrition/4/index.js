@@ -7,7 +7,7 @@ function FoodRestaurantNutritionTemplate4() {
 
             <h1>We break fresh, handmade bread, pastries and cakes every day</h1>
             <div id="ligne" className="d-flex flex-row align-items-center justify-content-center">
-                <div className="d-flex flex-row align-items-center justify-content-center">
+                <div className="item d-flex flex-row align-items-center justify-content-center">
                     <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/fce79167d3fb51019c22c050/1.jpg" />
                     <div className="div-texte">
                         <h3 className="titre"> Sourdough Loaf</h3>
@@ -15,7 +15,7 @@ function FoodRestaurantNutritionTemplate4() {
                         <div className="prix">$​4.65</div>
                     </div>
                 </div>
-                <div className="d-flex flex-row align-items-center justify-content-center">
+                <div className="item d-flex flex-row align-items-center justify-content-center">
                     <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/7fd74ee6960a51759fe126f4/rr.jpg" />
                     <div className="div-texte">
                         <h3 className="titre">Baguette</h3>
@@ -24,15 +24,15 @@ function FoodRestaurantNutritionTemplate4() {
                     </div>
                 </div>
             </div>
-            <div id="ligne" className="d-flex flex-row align-items-center justify-content-center">
-                <div className="d-flex flex-row align-items-center justify-content-center">
+            <div id="ligne" className="d-flex flex-row align-items-center justify-content-center ">
+                <div className="item d-flex flex-row align-items-center justify-content-center inversecolumn">
                     <div className="div-texte">
                         <h3 className="titre">Farmers Loaf</h3>
                         <p className="texte">Slow-fermented sourdough Rye studded with Kalamata.</p>
                         <div className="prix">$​5.50</div>
                     </div>  <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/87222a54c4795e00a497aee4/gh.jpg" />
                 </div>
-                <div className="d-flex flex-row align-items-center justify-content-center">
+                <div className="item d-flex flex-row align-items-center justify-content-center inversecolumn">
 
                     <div className="div-texte">
                         <h3 className="titre">Round Bread</h3>
