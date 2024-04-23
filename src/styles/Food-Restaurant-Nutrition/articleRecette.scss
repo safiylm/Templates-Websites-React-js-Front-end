@@ -45,5 +45,60 @@
         
     }
 
+    @media(max-width:710px) {
+    
+        height:  55vw;
+        width: 90vw;
+        padding: 0;
+        margin: 20px auto; 
+
+        
+    #image-article{
+        height:  55vw;
+        width: 30vw;
+    }
+
+    #div-un-article-texte{
+        height:  55vw;
+        width: 60vw;
+        div{
+            margin-bottom: 4px ;
+        }
+        h1{
+            font-size: 19px;
+        }
+        .titre-desciption p {
+            font-size: 15px;
+        }
+
+    }
+    }
+
+    @media(max-width:510px) {
+    
+        height: auto;
+        width: 95vw;
+        padding: 0;
+        margin: 20px auto; 
+        flex-direction: column !important;
+
+    
+        
+    #image-article{
+        height: auto;
+        width: 95vw;
+
+    }
+
+    #div-un-article-texte{
+        height: max-content;
+        width: 100% ;
+        div{
+            margin-bottom: 10px ;
+        }
+
+    }
+    }
+
 
 }
