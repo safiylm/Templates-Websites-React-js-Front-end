@@ -34,6 +34,7 @@ function ArtDesignTemplate2() {
     console.log(indexSlide)
 
   }
+  
   return (
     <div id="page-template11" className='d-flex flex-row align-items-center justify-content-between'>
       <button  className='right' onClick={precedent}>
