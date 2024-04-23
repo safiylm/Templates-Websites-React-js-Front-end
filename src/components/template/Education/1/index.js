@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 function EducationTemplate1() {
 const goToLink = () => {
-    document.location.href='https://createur2site.fr/creation-site-internet/creer-site/langage-programmation/'
+   // document.location.href='https://createur2site.fr/creation-site-internet/creer-site/langage-programmation/'
 }
     return (
         <div id="div-Education1-container">
@@ -26,7 +26,7 @@ const goToLink = () => {
                 </svg>
             </div>
 
-            <div className="d-flex justify-content-between"  id="nav">
+            <div className="d-flex flex-wrap justify-content-between"  id="nav">
 
                 <div className='div-left'>
                     <form>
@@ -195,7 +195,7 @@ const goToLink = () => {
                 </form>
             </div>
 
-            <div className="d-flex justify-content-around  align-items-center" id="prendrerdv">
+            <div className="d-flex flex-wrap justify-content-around  align-items-center" id="prendrerdv">
                 <h1>Votre site WordPress est... ennuyeux ? Votre site web n'est pas en première page de Google ?
                     <br />
                     <br />
@@ -204,7 +204,7 @@ const goToLink = () => {
                 <img src="https://createur2site.fr/wp-content/uploads/2021/09/cluster-4.png.webp" alt='logo'/>
             </div>
 
-            <footer className="d-flex justify-content-around">
+            <footer className="d-flex flex-wrap justify-content-around">
 
                 <div  className="d-flex flex-column mb-3">
                     <button  className="btn btn-light" onClick={goToLink()}>Contactez nous</button>
