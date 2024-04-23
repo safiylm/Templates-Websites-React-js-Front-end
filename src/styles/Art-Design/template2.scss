@@ -5,7 +5,7 @@ body {
 }
 
 #page-template11 {
-
+    background-color: aqua;
     height: 100vh;
 
     #profil {
@@ -67,5 +67,22 @@ body {
         height: 80px;
         border: none;
         background-color: transparent;
+    }
+}
+
+@media(max-width:800px) {
+
+    #page-template11 {
+
+        #liste-profil, #profil {
+
+            width: 75vw;
+        }
+
+        button {
+
+            width: 10vw;
+        }
+
     }
 }
