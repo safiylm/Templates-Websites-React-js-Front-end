@@ -16,6 +16,18 @@
             width: 450px;
             height: auto;
         }
+
+        @media(max-width:1000px) {
+            #img1,
+            #img2 {
+                /* position:absolute; */
+                margin: 0px;
+                padding: 10px;
+                width: 100vw;
+                height: auto;
+            }
+        
+        }
     }
 
     #div-quotes {
@@ -171,7 +183,7 @@
 
 
 
-@media screen and (max-width:800px) {
+@media(max-width: 800px) {
     .div-page3 .div-gallery {
         flex-direction: column;
         height: auto;
@@ -209,56 +221,60 @@
     }
 }
 
-@media screen and (max-width:600px) {
-    .div-page3 .div-gallery .div-left {
+@media(max-width: 600px) {
+    .div-page3 #div-gallery .div-left {
 
         width: 90%;
     }
 
-    .div-gallery .div-left .div-left-child1 {
-        width: 100%;
+    #div-gallery .div-left .div-left-child1 {
+        width: 90vw !important;
+        margin: 0;
     }
 
-    .div-gallery .div-left h3 {
+    #div-gallery .div-left h3 {
         font-size: 30px;
         margin-top: 30px;
     }
 
-    .div-gallery .div-gallery .div-left .div-left-child1 p {
+    #div-gallery .div-gallery .div-left .div-left-child1 p {
         font-size: 24px;
         margin-top: 30px;
     }
 
 
-    .div-gallery .div-left-child2 img {
+    #div-gallery  .div-left-child2 img {
         margin-right: 0px;
-        width: 100%;
+        width: 90vw !important;
+        padding: auto;
     }
 
-    .div-gallery .div-left-child2 div {
+    #div-gallery  .div-left-child2 div {
         margin-left: 0px;
         width: 100%;
+
     }
 
-    .div-gallery .div-left-child2 {
+    #div-gallery .div-left-child2 {
         align-items: center;
         flex-direction: column;
+        width: 90vw !important;
     }
 
-    .div-gallery .div-right img,
-    .div-gallery .div-right div {
-        width: 100%;
+    #div-gallery  .div-right img,
+    #div-gallery .div-right div {
+        width: 90vw !important;
         margin: 20px 0;
 
     }
 
-    .div-gallery .div-right {
+    #div-gallery  .div-right {
         width: 90%;
         justify-content: center;
         flex-wrap: wrap;
     }
 
-    .div-gallery .div-right div {
+    #div-gallery  .div-right div {
         margin-left: 0;
     }
 }
@@ -414,7 +430,7 @@
     }
 
     .right-child1 {
-        width: 90%;
+        width: 100vw !important;
         padding: 20px;
     }
 
@@ -423,10 +439,9 @@
         padding: 0;
 
         img {
-            width: 100%;
-            padding: 0;
-            ;
-            margin: 10px 0;
+            width: 90vw !important;
+            padding: 0 !important;
+            margin:  0 !important;
         }
     }
 

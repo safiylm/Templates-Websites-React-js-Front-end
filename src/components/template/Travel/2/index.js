@@ -80,7 +80,7 @@ function TravelTemplate2() {
                     <a>MORE</a>
                 </div>
 
-                <div className="div-left-child2 d-flex justify-content-center flex-row">
+                <div className="div-left-child2 d-flex flex-wrap justify-content-center flex-row">
                     <img
                         src="https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/36934a45ae8954d687738202/pexels-photo-9456528.jpeg" />
                     <div>
