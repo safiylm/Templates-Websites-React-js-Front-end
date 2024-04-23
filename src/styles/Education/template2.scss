@@ -10,6 +10,7 @@ body {
     width: 100vw;
 
     .column {
+       
         div {
             width: 350px;
             height: 350px;
@@ -20,13 +21,27 @@ body {
             width: 350px;
             height: 350px;
             object-fit: cover;
-
+            margin: 10px 0;
         }
+    }
+
+    @media(max-width:1000px) {
+        .d-flex {
+            flex-wrap: wrap !important;
+        }
+
+    }
+    @media(max-width:600px) {
+
+        .d-flex {
+            flex-direction: column !important;
+        }
+
     }
 }
 
 .div-text {
- 
+
     padding: 20px;
 
     * {
@@ -46,13 +61,5 @@ body {
 
     }
 
-}
-
-
-@media(max-width:950px) {
-
-    .d-flex {
-        flex-direction: column !important;
-    }
-
+ 
 }
