@@ -1,20 +1,41 @@
-.div-InteriorDesign1-container 
-#div-image-container {
-    padding-top: 50px;
+.div-InteriorDesign1-container {
+    width: 100vw;
 
-    img {
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-        padding: 10px;
+    #div-image-container {
+        padding-top: 50px;
+        width: 100vw;
+
+        .d-flex {
+            width: 100vw;
+
+            img {
+                width: 290px;
+                height: 290px;
+                object-fit: cover;
+                padding: 10px;
+            }
+
+            h2 {
+                padding: 10px 20px;
+                width: 850px;
+                text-align: center;
+                line-height: 55px;
+                font-weight: 200;
+                font-size: 29px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(max-width:950px) {
+
+    .div-InteriorDesign1-container {
+        width: 100%;
     }
 
-    h2 {
-        padding: 10px;
-        width: 850px;
-        text-align: center;
-        line-height: 55px;
-        font-weight: 200;
-        font-size: 29px;
+    #div-image-container .d-flex {
+        flex-direction: column !important;
+
     }
 }
