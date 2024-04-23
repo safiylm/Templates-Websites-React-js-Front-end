@@ -16,7 +16,7 @@ function TravelTemplate1() {
                 </h1>
             </div>
 
-            <div id="div1" className="d-flex flex-row align-items-center justify-content-center">
+            <div id="div1" className="d-flex flex-row flex-wrap align-items-center justify-content-center">
                 <div className='texte'>
                     <h1>About me</h1>
                     <p>Leigh McAdam is a Calgary-based writer, photographer and social media enthusiast with over 48,000 followers. Her blog: HikeBikeTravel is frequently cited as one of the top travel and outdoor adventure blogs in Canada, and consistently receives over 135,000 monthly page views. She shares her enthusiasm for the outdoors as a brand ambassador for Sporting Life, and has worked on campaigns for Travel Alberta, Expedia and Flight Hub. Leigh is the author of Discover Canada: 100 Inspiring Outdoor Adventures. Currently, she is co-authoring: 125 Nature Hot Spots in Alberta (spring 2018). A true adventurer, Leigh will try anything once, except perhaps bungee jumping.
@@ -24,6 +24,7 @@ function TravelTemplate1() {
                 </div>
                 <img src="https://images01.nicepage.com/5a/13/5a1396a2b9570a75f845e6a6880dfb9d.jpeg" />
             </div>
+
             <div className='div2'>
 
                 <div className='div2-texte'>
@@ -34,7 +35,7 @@ function TravelTemplate1() {
                     </p>
                 </div>
 
-                <div id='liste' className='d-flex flex-row align-items-center justify-content-around'>
+                <div id='liste' className='d-flex flex-row flex-wrap align-items-center justify-content-around'>
                     <div id='item' className='d-flex flex-column align-items-center justify-content-center'> <img src={hiking} /> <h6>Hiking</h6> </div>
                     <div id='item' className='d-flex flex-column align-items-center justify-content-center'> <img src={ride} /> <h6>HikeBike</h6> </div>
                     <div id='item' className='d-flex flex-column align-items-center justify-content-center'> <img src={ocean} /><h6>Ocean</h6> </div>
@@ -56,7 +57,7 @@ function TravelTemplate1() {
 
             </div>
 
-            <div id='div4' className='d-flex flex-row align-items-center justify-content-center'>
+            <div id='div4' className='d-flex flex-row flex-wrap align-items-center justify-content-center'>
                 <h1>Where do you want to go?</h1>
                 <div>
                     <p>
@@ -75,7 +76,7 @@ function TravelTemplate1() {
                     <p>Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.
                     </p>
                 </div>
-                <div id='div-clients' className='d-flex flex-row align-items-center justify-content-center'>
+                <div id='div-clients' className='d-flex flex-row flex-wrap align-items-center justify-content-center'>
                     <div className='div-un-client' >
                         <img src="https://images01.nicepage.com/3d/cf/3dcf4d72582edf11c7fd4f4bbdb0495d.jpeg" />
                         <p>She has booked two major European trips for us in the past year and every aspect has met, and in most cases exceeded, our expectations. Best prices, best hotels, best itineraries, and best cruises, she does it all. But the most important thing is she remembers the little things that we would do if we were making the plans ourselves.
@@ -92,7 +93,7 @@ function TravelTemplate1() {
 
                 </div>
             </div>
-            <div id='div6' className='d-flex flex-row align-items-center justify-content-center flex-wrap'>
+            <div id='div6' className='d-flex flex-row flex-wrap align-items-center justify-content-center flex-wrap'>
                 <img src="https://images01.nicepage.com/3f/38/3f3860bd4fed5be6677a686671511935.jpeg" />
                 <img src="https://images01.nicepage.com/e9/9c/e99c183fab3d210239d43648ef132a28.jpeg" />
                 <img src="https://images01.nicepage.com/2e/01/2e011b70e7188a19c3380f650eb15dc0.jpeg" />
