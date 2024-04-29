@@ -90,6 +90,20 @@ export const array_template_websites = [
         "image": "https://i.ibb.co/ZHrcN1M/template14.png",
         "categorie" : "Portfolio"
     },
+
+    {
+        "id": 15,
+        "titre" : "Connexion",
+        "image": "https://i.ibb.co/7vbQDL1/template15.png",
+        "categorie" : "Authentification"
+    },
+
+    {
+        "id": 16,
+        "titre" : "E commerce ",
+        "image": "https://i.ibb.co/n1S0bCy/template16.png",
+        "categorie" : "Ecommerce"
+    },
     
 
 ]

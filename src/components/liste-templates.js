@@ -11,7 +11,7 @@ function ListeTemplateWebSite() {
   return (
     <div className="page-liste-templates-website">
 
-      <div className="div-bar">10+ Free Website Templates 2024</div>
+      <div className="div-bar">15+ Free Website Templates 2024</div>
 
       <div id='categorie' className='d-flex flex-row flex-wrap align-items-center justify-content-center'>
       <div> <a href="/">All category</a> </div>
