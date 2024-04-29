@@ -106,11 +106,6 @@ class EcommerceTemplate1 extends Component {
     render() {
         return (
             <div id="div-Ecommerce1-container">
-
-                <nav>
-                    <img id="logo" src="img/logo.png" />
-                </nav>
-
                 <div class="main">
 
 
