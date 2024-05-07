@@ -102,7 +102,7 @@ export const array_template_websites = [
     {
         "id": 16,
         "titre" : "E commerce ",
-        "image": "https://i.ibb.co/n1S0bCy/template16.png",
+        "image": "https://i.ibb.co/6XYw55X/template16.png",
         "categorie" : "Ecommerce"
     },
      {
