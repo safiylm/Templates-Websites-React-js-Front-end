@@ -98,11 +98,18 @@ export const array_template_websites = [
         "categorie" : "Authentification"
     },
 
+   
     {
         "id": 16,
         "titre" : "E commerce ",
         "image": "https://i.ibb.co/n1S0bCy/template16.png",
         "categorie" : "Ecommerce"
+    },
+     {
+        "id": 17,
+        "titre" : "My account",
+        "image": "https://i.ibb.co/Fz9QDnv/template17.png",
+        "categorie" : "Authentification"
     },
     
 

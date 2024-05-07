@@ -15,6 +15,7 @@ import PortfolioTemplate1 from './components/template/Portfolio/1/index.js';
 import EcommerceTemplate1 from './components/template/Ecommerce/1/index.js';
 import AuthentificationTemplate1 from './components/template/Authentification/1/index.js';
 import ListeTemplateWebSite from './components/liste-templates.js'
+import MyAccountTemplate1 from './components/template/myAccount/1/index.js'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 
@@ -40,8 +41,10 @@ function App() {
           <Route path="/template/12" element={<EducationTemplate1 />} />
           <Route path="/template/13" element={<FoodRestaurantNutritionTemplate1 />} />
           <Route path="/template/14" element={< PortfolioTemplate1 />} />
-          <Route path="/template/15" element={< AuthentificationTemplate1  />} />
+          <Route path="/template/15" element={< AuthentificationTemplate1  />} />          
           <Route path="/template/16" element={< EcommerceTemplate1 />} />
+          <Route path="/template/17" element={< MyAccountTemplate1  />} />
+
 
         </Route>
       </Routes>

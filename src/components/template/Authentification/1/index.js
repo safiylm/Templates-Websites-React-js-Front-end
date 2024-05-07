@@ -10,13 +10,19 @@ function AuthentificationTemplate1() {
             <form action="" method="">
                 <input type="text" class="form-control" name="email" placeholder="email" auto autoComplete='off' required />
 
-                <input type="password" class="form-control" name="password" placeholder="Mot de passe"  autoComplete='off' required />
+                <input type="password" class="form-control" name="password" placeholder="Mot de passe" autoComplete='off' required />
                 <p>
                     <input type="checkbox" id="scales" name="scales" checked />
                     <label for="scales">Se souvenir de moi</label>
                 </p>
 
-                <button class="btn" type="submit">Se connecter </button>
+                <button class="btn" type="submit"
+                    onClick={(e) => {
+                        e.preventDefault();
+                        document.location.href = "/template/17"
+                    }}>
+                    Se connecter
+                </button>
 
 
                 <br />

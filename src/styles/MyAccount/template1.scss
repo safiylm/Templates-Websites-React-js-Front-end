@@ -1,0 +1,94 @@
+#div-AuthentificationCompte1-container {
+
+
+
+    form {
+        margin: 50px auto;
+        border: 1px solid rgb(241, 241, 241);
+        border-radius: 10px 10px 0 0;
+        width: 800px;
+        background-color: #edf2f7;
+        background-color: #f7fafc;
+
+
+        #div-myaccount-edit {
+            background-color: white;
+            border-radius: 10px 10px 0 0;
+            padding: 10px;
+
+            h1 {
+                text-align: center;
+                font-size: large;
+            }
+        }
+
+        #div-user-information ,
+            #div-contact-information ,
+            #div-about-me{
+            padding: 20px;
+            border-bottom: 1px solid rgb(183, 183, 183) ;
+
+            h2 {
+                font-size: 14px;
+                text-transform: uppercase;
+                color: lightslategray;
+                margin-bottom: 25px;
+            }
+
+            label {
+                font-size: 14px;
+                color: #525f7f;
+            }
+
+            input {
+                color: rgb(115, 115, 116);
+                font-size: 15px;
+                border-radius: 5px;
+                width: 100%;
+                margin: 7px 0 25px 0;
+                
+            }
+
+            input:disabled{
+                
+            }
+            
+
+          
+        }
+
+        #div-user-information  .input-group {
+            width: 48% !important;
+        }
+
+        #div-contact-information .input-group {
+            width: 30% !important;
+        }
+
+        #div-contact-information #adresse {
+            width: 100% !important;
+        }
+
+        #div-about-me textarea{
+            height: 100px;
+        }
+
+
+
+    }
+
+    @media(max-width:810px) {
+        form {
+            width: 90vw;
+
+            .input-group {
+                width: 100% !important;
+            }
+        }
+
+
+    }
+
+}
+
+//https://www.creative-tim.com/bits/bootstrap/my-account-card-argon-dashboard
