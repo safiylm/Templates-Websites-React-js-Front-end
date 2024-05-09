@@ -1,0 +1,36 @@
+#div-Education5-body {
+    background-color: dodgerblue;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+
+    #div-Education5-container {
+        background-color: rgb(255, 254, 254);
+        padding: 25px;
+        border-radius: 14px;
+        width: 50vw;
+
+        form {
+            margin: 20px 0;
+
+            * {
+                height: 40px !important;
+            }
+        }
+
+        #liste-des-taches {
+
+            li {
+                margin: 10px 0;
+                padding: 10px 0;
+                border-bottom: 1px solid gray;
+
+                button {
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+}

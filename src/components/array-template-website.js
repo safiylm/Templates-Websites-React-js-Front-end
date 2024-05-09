@@ -116,8 +116,23 @@ export const array_template_websites = [
         "id": 18,
         "titre" : "Quizz",
         "image": "https://i.ibb.co/9Zh2GgR/template18.png",
-        "categorie" : "Authentification"
+        "categorie" : "Education"
     },
+
+    {
+        "id": 19,
+        "titre" : "To Do List",
+        "image": "https://i.ibb.co/6vj442j/template19.png",
+        "categorie" : "Education"
+    },
+
+    {
+        "id": 20,
+        "titre" : "Pomodoro",
+        "image": "https://i.ibb.co/NnRJTY8/template20.png",
+        "categorie" : "Education"
+    },
+
     
 
 ]
