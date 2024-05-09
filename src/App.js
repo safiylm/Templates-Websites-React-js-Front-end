@@ -6,6 +6,7 @@ import InteriorDesignTemplate1 from './components/template/Interior-Design/1/ind
 import EducationTemplate1 from './components/template/Education/1/index.js'
 import EducationTemplate2 from './components/template/Education/2/index.js'
 import EducationTemplate3 from './components/template/Education/3/index.js'
+import EducationTemplate4 from './components/template/Education/4/index.js'
 import FoodRestaurantNutritionTemplate1 from './components/template/Food-Restaurant-Nutrition/1/index.js'
 import FoodRestaurantNutritionTemplate2 from './components/template/Food-Restaurant-Nutrition/2/index.js'
 import FoodRestaurantNutritionTemplate3 from './components/template/Food-Restaurant-Nutrition/3/index.js'
@@ -44,6 +45,7 @@ function App() {
           <Route path="/template/15" element={< AuthentificationTemplate1  />} />          
           <Route path="/template/16" element={< EcommerceTemplate1 />} />
           <Route path="/template/17" element={< MyAccountTemplate1  />} />
+          <Route path="/template/18" element={< EducationTemplate4  />} />
 
 
         </Route>

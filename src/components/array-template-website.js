@@ -111,6 +111,13 @@ export const array_template_websites = [
         "image": "https://i.ibb.co/Fz9QDnv/template17.png",
         "categorie" : "Authentification"
     },
+
+    {
+        "id": 18,
+        "titre" : "Quizz",
+        "image": "https://i.ibb.co/9Zh2GgR/template18.png",
+        "categorie" : "Authentification"
+    },
     
 
 ]
