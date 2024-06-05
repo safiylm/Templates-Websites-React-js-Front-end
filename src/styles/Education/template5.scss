@@ -6,6 +6,10 @@
     height: 100vh;
 
 
+    #div-edit{
+        display:none;
+    }
+
     #div-Education5-container {
         background-color: rgb(255, 254, 254);
         padding: 25px;
@@ -15,9 +19,7 @@
         form {
             margin: 20px 0;
 
-            * {
-                height: 40px !important;
-            }
+           
         }
 
         #liste-des-taches {
