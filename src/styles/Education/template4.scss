@@ -20,7 +20,8 @@ body {
 
 }
 
-.div-quizz-container {
+.div-quizz-container,
+#div-quizz-commencer {
     margin: 50px auto;
     width: 600px;
     padding: 40px;
@@ -28,9 +29,13 @@ body {
     border-radius: 12px;
 }
 
+.div-quizz-container
+{
+    display:none;
+}
+
 #remaining-time {
     margin: 0 10px;
-
 }
 
 #quiz-question {
