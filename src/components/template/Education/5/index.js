@@ -4,10 +4,10 @@ import { useState } from 'react';
 
 function EducationTemplate5() {
 
-    let [todolist, setToDoList] = useState([]);
+    let [todolist, setToDoList] = useState([{ id: 0, task: "888" }, { id: 1, task: "99" }]);
 
     const addNewTask = (newElement) => {
-        let id = Number(document.getElementById('input-id').value);
+        let id = todolist.length
         let task = document.getElementById('input-tache').value;
         document.getElementById('input-tache').value = "";
 
@@ -24,33 +24,28 @@ function EducationTemplate5() {
 
     }
 
-    const updateTask = () => {
-        let id = Number(document.getElementById('input-id-foredit').value);
-        let task = document.getElementById('input-tache-foredit').value;
+    const updateTask = (id) => {
+        let task = document.getElementById('input-tache-foredit'+id).value;
         const changgment = todolist.map((c) => {
             if (c.id === id) {
-                // Increment the clicked counter
-                return  { "id": id, "task": task };
-            } else {
-                // The rest haven't changed
-                return c;
+                return { "id": c.id, "task": task };
+            }else{
+               return c;
             }
         });
         setToDoList(changgment);
-        console.log(changgment)
-        closeEdit()
+        closeEdit(id)
     }
 
-    const openEdit = () => {
-        document.getElementById('div-edit').style.display = "block";
-        document.getElementById('div-buttons-ed').style.display = "none";
+    const openEdit = (id) => {      
+        document.getElementById('div-edit' + id).style.display = "block";
+        document.getElementById('div-buttons-ed'+id).style.display = "none";
 
     }
 
-    const closeEdit = () => {
-        document.getElementById('div-edit').style.display = "none";
-        document.getElementById('div-buttons-ed').style.display = "block";
-
+    const closeEdit = (id) => {
+        document.getElementById('div-edit' + id).style.display = "none";
+        document.getElementById('div-buttons-ed'+id).style.display = "block";
     }
 
     const deleteNewTask = (id) => {
@@ -68,9 +63,7 @@ function EducationTemplate5() {
 
                 <div className="d-flex justify-content-center align-items-center">
                     <input id="input-tache" className="form-control" placeholder='Saisissez une nouvelle tâche*' />
-                    <input id="input-id" type="hidden" value={todolist.length + 2} />
-
-                    <button className="btn btn-primary" onClick={() => { addNewTask("MAnger sainement") }}> Créer</button>
+                    <button className="btn btn-light" onClick={() => { addNewTask("MAnger sainement") }}> Créer</button>
                 </div>
 
                 <ul id="liste-des-taches">
@@ -79,19 +72,19 @@ function EducationTemplate5() {
                             <div>{element.task}</div>
                             <div>
 
-                                <div id="div-edit">
+                                <div className='div-edit' id={"div-edit" + element.id}>
 
-                                    <input id="input-id-foredit" type="hidden" value={element.id} />
-                                    <input id="input-tache-foredit" className='form-control' defaultValue={element.task} />
-                                    <button className="btn btn-primary" onClick={() => { updateTask() }}>
+                                    <input id={"input-tache-foredit"+element.id} className='form-control' defaultValue={element.task} />
+                                    
+                                    <button className="btn btn-light" onClick={() =>updateTask(element.id) }>
                                         Enregistrer les modifications
                                     </button>
-                                    <button className="btn btn-light" onClick={closeEdit}>
+                                    <button className="btn btn-light" onClick={() => closeEdit(element.id)}>
                                         Annuler
                                     </button>
                                 </div>
-                                <div id="div-buttons-ed">
-                                    <button id="btn-edit" className="btn btn-primary" onClick={openEdit} >
+                                <div id={"div-buttons-ed" + element.id}>
+                                    <button id="btn-edit" className="btn btn-light" onClick={() => openEdit(element.id)} >
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-pen" viewBox="0 0 16 16">
                                             <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z" />
                                         </svg>
