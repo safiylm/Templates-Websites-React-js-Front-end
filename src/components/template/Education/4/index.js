@@ -14,14 +14,14 @@ function EducationTemplate4() {
             "reponseB": "Search engine",
             "reponseC": "Directory of images",
             "reponseD": "Chat service on web",
-            "reponse": ["reponseB"],
+            "reponse_exacte": ["reponseB"],
             "temps": 11,
         },
         {
             "question": "<code>console.log(0.1 + 0.2 == 0.3);</code>",
             "reponseA": "true",
             "reponseB": "false",
-            "reponse": ["reponseB"],
+            "reponse_exacte": ["reponseB"],
             "temps": 12,
         }
         ,
@@ -31,7 +31,7 @@ function EducationTemplate4() {
             "reponseB": "Php Hypertext Preprocessor",
             "reponseC": "Php Hypermarkup Preprocessor",
             "reponseD": "Php Hypermarkup Processor",
-            "reponse": ["reponseB"],
+            "reponse_exacte": ["reponseB"],
             "temps": 13,
         }
     ]
@@ -40,25 +40,86 @@ function EducationTemplate4() {
     const commencerQuizz = () => {
         document.getElementById('div-quizz-container').style.display = "block";
         document.getElementById('div-quizz-commencer').style.display = "none";
+    }
 
-        setTime(setInterval(() => {
-            if (time > 0) {
-                time--
+
+    const getResults = () => {
+
+
+        // LOOP FOR GOING THROUGH ALL QUESTIONS
+        //  for (let i = 0; i < nbquestions; i++) {
+        let radiosName = document.getElementsByName('quizzQ' + indexOfQuestion);
+        //LOOP FOR CHECKING ANSWERS INSIDE EACH RADIO
+        for (var j = 0; j < radiosName.length; j++) {
+            let label;
+            if (j == 0) {
+                label = document.getElementById("label" + indexOfQuestion + "A")
             }
-            else {
-                next()
+            if (j == 1) {
+                label = document.getElementById("label" + indexOfQuestion + "B")
             }
-        },1000) 
-    )
+            if (j == 2) {
+                label = document.getElementById("label" + indexOfQuestion + "C")
+            }
+            if (j == 3) {
+                label = document.getElementById("label" + indexOfQuestion + "D")
+            }
+
+
+
+            var radiosValue = radiosName[j];
+            radiosValue.disabled = true;
+
+            if (radiosValue.value == quizz[indexOfQuestion].reponse_exacte[0] && radiosValue.checked) {
+
+                radiosValue.style.backgroundColor = "green";
+                label.style.color = "green";
+            }
+
+            if (radiosValue.value != quizz[indexOfQuestion].reponse_exacte[0] && radiosValue.checked) {
+                label.style.color = "red";
+                label.style.textDecoration = "line-through";
+
+            }
+
+            if (radiosValue.value == quizz[indexOfQuestion].reponse_exacte[0]) {
+                label.style.backgroundColor = "#b1d9b1";
+                label.style.padding = "1.5px";
+            }
+        }
+
+
+        // setTimeout(next(), 9000)
+        // }
     }
     // 
     const next = () => {
-        if (quizz.length >= indexOfQuestion + 1) {
-            setIndexOfQuestion(indexOfQuestion++);
+        if (quizz.length > indexOfQuestion + 1) {
+            setIndexOfQuestion(indexOfQuestion+1);
         }
         else
             setIndexOfQuestion(0);
-        setTime(quizz[indexOfQuestion - 1].temps)
+        // setTime(quizz[indexOfQuestion - 1].temps)
+
+
+        let radiosName = document.getElementsByName('quizzQ' + indexOfQuestion);
+        radiosName.forEach(radioinput => {
+            radioinput.disabled = false;
+            radioinput.checked = false
+        })
+
+
+        const labels = document.querySelectorAll('label')
+
+        for (let i = 0; i < labels.length; i++) {
+
+            labels[i].style.backgroundColor = "white";
+            labels[i].style.color = "black";
+            labels[i].style.padding = "1.5px";
+            labels[i].style.textDecoration = "none";
+        }
+
+
     }
 
     return (
@@ -81,36 +142,40 @@ function EducationTemplate4() {
                         <div id="remaining-time"> {time}s</div>
                     </div>
                 </div>
-                <p id="quiz-question">Google (www.google.com) is a : </p>
-                <label className="form-control">
-                    <input type="radio" name="quizzQ1" />
+                <p id="quiz-question">{quizz[indexOfQuestion].question} </p>
+                <label className="form-control" id={"label" + indexOfQuestion + "A"}>
+                    <input type="radio" name={"quizzQ" + indexOfQuestion} value="reponseA" />
                     {quizz[indexOfQuestion].reponseA}
                 </label>
 
-                <label className="form-control">
-                    <input type="radio" name="quizzQ1" />
+                <label className="form-control" id={"label" + indexOfQuestion + "B"} >
+                    <input type="radio" name={"quizzQ" + indexOfQuestion} value="reponseB" />
                     {quizz[indexOfQuestion].reponseB}
                 </label>
                 {quizz[indexOfQuestion].reponseC != null &&
-                    <label className="form-control">
-                        <input type="radio" name="quizzQ1" />
+                    <label className="form-control" id={"label" + indexOfQuestion + "C"}>
+                        <input type="radio" name={"quizzQ" + indexOfQuestion} value="reponseC" />
                         {quizz[indexOfQuestion].reponseC}
                     </label>
                 }
 
                 {quizz[indexOfQuestion].reponseD != null &&
-                    <label className="form-control">
-                        <input type="radio" name="quizzQ1" />
+                    <label className="form-control" id={"label" + indexOfQuestion + "D"}>
+                        <input type="radio" name={"quizzQ" + indexOfQuestion} value="reponseD" />
                         {quizz[indexOfQuestion].reponseD}
                     </label>
                 }
                 <div style={{ textAlign: "right" }}>
                     <button className="btn btn-light"
                         onClick={() => {
+                            getResults()
+                        }}
+                    >Terminer</button>
+                    <button className="btn btn-light"
+                        onClick={() => {
                             next()
                         }}
                     >Next</button>
-
                 </div>
 
             </div>
