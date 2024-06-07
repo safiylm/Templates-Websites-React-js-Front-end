@@ -4,7 +4,7 @@ import { useState } from 'react';
 
 function EducationTemplate5() {
 
-    let [todolist, setToDoList] = useState([{ id: 0, task: "888" }, { id: 1, task: "99" }]);
+    let [todolist, setToDoList] = useState([{ id: 0, task: "Read" }, { id: 1, task: "Walk" }]);
 
     const addNewTask = (newElement) => {
         let id = todolist.length
