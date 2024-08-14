@@ -1,0 +1,277 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+.burgerrestaurant1{
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+    background-color: white;
+    color: #333;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 22px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* -------------------------------------------------------------- */
+
+.hero {
+    background-image: url("http://templates.framework-y.com/gourmet/images/hd-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    /* very important this line */
+    min-height: 70vh;
+    width: 100vw;
+    text-align: center;
+    padding: 20vh 20px;
+}
+
+.hero h1,
+.hero p {
+    color: white;
+    width: 100%;
+    padding: 25px 0;
+}
+
+.hero .hero-container {
+    text-align: center;
+    width: 450px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: 0.4px solid rgb(255, 255, 255);
+    background-color: transparent;
+    color: white;
+}
+
+@media(max-width: 1000px) {
+    .hero {
+
+        padding: 15px 0;
+        background-position: bottom;
+    }
+
+    .hero-container {
+        width: 100vw !important;
+        background-color: rgba(14, 14, 14, 0.8);
+        padding: 40px 20px;
+        margin: 20px 0;
+    }
+}
+
+/* ---------------------------------------------------- */
+
+.listmenu{
+    margin: 50px 10px;
+}
+.un-menu {
+    margin: 20px;
+    width: 230px;
+}
+
+.un-menu img {
+    width: 230px;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+.un-menu span {
+    background-color: black;
+    color: white;
+    padding: 2px 5px;
+    position: relative;
+    left: 84px;
+    top: -15px;
+}
+
+.un-menu h3 {
+    font-size: large;
+    text-align: center;
+}
+
+.un-menu p {
+    width: 100%;
+    color: #777575;
+    font-size: small;
+    text-align: center;
+
+}
+
+.un-menu:hover {
+    box-shadow: 0px 0px 8px 7px rgba(197, 197, 197, 0.4);
+    transform: scale(1.05);
+    transition-duration: 0.6s;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.findtable{
+    margin: 50px 10px;
+}
+
+.findtable .col {
+    max-width: 250px;
+    margin: 20px;
+}
+
+
+.findtable .col:last-child {
+    max-width: 500px;
+}
+
+.findtable .col .btn {
+    width: 100%;
+}
+
+.findtable .col .btn-dark {
+
+    background-color: #484848;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+.image-burger {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    margin: 60px;
+
+}
+
+.description-burger {
+    max-width: 600px;
+    margin: 60px;
+}
+
+.description-burger h2 {
+    text-transform: uppercase;
+    color: #484848;
+}
+
+.description-burger p {
+    color: gray;
+}
+
+.description-burger #prix {
+    font-size: x-large;
+    font-weight: 600;
+    color: #484848;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+
+
+.menu{
+    padding: 40px 10px;
+    margin-bottom: 10px;
+}
+
+.menu h2 {
+    text-align: center;
+    font-weight: 500;
+    margin: 20px auto;
+    text-transform: uppercase;
+    color: #484848;
+}
+
+
+
+.menu .menu-items {
+    max-width: 380px;
+    width: 25vw;
+    font-family: 'Montserrat', sans-serif;
+    padding: 25px 0;
+    border-bottom: 0.4px solid grey;
+    margin: 0 10px;
+}
+
+.menu .menu-items:hover {
+    border-bottom: 0.7px solid rgb(37, 37, 37);
+    padding-left: 10px;
+    transition-duration : 0.5s;
+
+}
+
+@media(max-width: 1200px) {
+    .menu .menu-items {
+        width: 55vw;
+    }
+}
+
+@media(max-width: 500px) {
+    .menu .menu-items {
+        width: 85vw;
+    }
+}
+
+.menu .menu-items #titre {
+    font-weight: 400;
+    font-size: larger;
+    color: #484848;
+
+}
+
+.menu .menu-items #description {
+    color: lightslategray;
+    font-size: small;
+
+}
+
+.menu .menu-items #prix {
+    width: 60px;
+    color: #484848;
+    font-weight: 700;
+    font-size: larger;
+}
+
+}

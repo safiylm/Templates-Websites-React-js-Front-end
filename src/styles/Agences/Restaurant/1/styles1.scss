@@ -1,0 +1,168 @@
+/* styles.css */
+* {
+    box-sizing: border-box;
+}
+
+.menurestaurant1 {
+    body {
+        /* font-family: Arial, sans-serif; */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        color:#333;
+        padding: 10px 20px;
+    }
+
+    header .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+
+    }
+
+    nav ul li a {
+        color: rgb(35, 34, 34);
+        text-decoration: none;
+    }
+
+
+
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    footer .social-media a {
+        color: white;
+        margin: 0 10px;
+        text-decoration: none;
+    }
+
+    /* -------------------------------------------------------------- */
+
+    .hero {
+        background-image: url("http://templates.framework-y.com/gourmet/images/bg-28.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size: contain;
+        /* very important this line */
+        min-height: 50vh;
+        width: 100vw;
+        text-align: center;
+        padding: 40px;
+
+
+        h1,
+        p {
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: xx-large;
+            text-transform: uppercase;
+            font-weight: 200;
+        }
+
+        p {
+            text-transform: italic;
+        }
+    }
+
+
+    /* -------------------------------------------------------------- */
+
+    .Breakfast,
+    .Launch,
+    .Dinner {
+        padding: 40px 10px;
+    }
+
+    .Breakfast h2,
+    .Launch h2,
+    .Dinner h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 200;
+        margin: 50px auto;
+    }
+
+    .Breakfast img,
+    .Launch img,
+    .Dinner img {
+        width: 350px;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .listmenu {
+        max-width: 850px;
+    }
+
+    .menu-items {
+        max-width: 380px;
+        width: 25vw;
+        font-family: 'Montserrat', sans-serif;
+        padding: 25px 0;
+        border-bottom: 0.4px solid grey;
+        margin: 0 10px;
+
+        #titre {
+            font-weight: 400;
+            font-size: larger;
+        }
+
+        #description {
+            color: lightslategray;
+            font-size: small;
+
+        }
+
+        #prix {
+            width: 60px;
+            color: black;
+        }
+
+    }
+
+    .menu-items:hover {
+        border-bottom: 0.7px solid rgb(37, 37, 37);
+        padding-left: 10px;
+        transition-duration: 0.5s;
+
+    }
+
+    @media(max-width: 1200px) {
+        .menu-items {
+            width: 55vw;
+        }
+    }
+
+    @media(max-width: 500px) {
+        .menu-items {
+            width: 85vw;
+        }
+    }
+
+}
