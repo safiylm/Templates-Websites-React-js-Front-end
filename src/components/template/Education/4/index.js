@@ -35,13 +35,12 @@ function EducationTemplate4() {
             "temps": 13,
         }
     ]
-    let [time, setTime] = useState(10);
+    let [score, setScore] = useState(0);
 
     const commencerQuizz = () => {
         document.getElementById('div-quizz-container').style.display = "block";
         document.getElementById('div-quizz-commencer').style.display = "none";
     }
-
 
     const getResults = () => {
 
@@ -74,6 +73,7 @@ function EducationTemplate4() {
 
                 radiosValue.style.backgroundColor = "green";
                 label.style.color = "green";
+                setScore(score + 1);
             }
 
             if (radiosValue.value != quizz[indexOfQuestion].reponse_exacte[0] && radiosValue.checked) {
@@ -92,14 +92,14 @@ function EducationTemplate4() {
         // setTimeout(next(), 9000)
         // }
     }
-    // 
+    
     const next = () => {
         if (quizz.length > indexOfQuestion + 1) {
-            setIndexOfQuestion(indexOfQuestion+1);
+            setIndexOfQuestion(indexOfQuestion + 1);
         }
         else
-            setIndexOfQuestion(0);
-        // setTime(quizz[indexOfQuestion - 1].temps)
+            getAllResults();
+
 
 
         let radiosName = document.getElementsByName('quizzQ' + indexOfQuestion);
@@ -118,8 +118,12 @@ function EducationTemplate4() {
             labels[i].style.padding = "1.5px";
             labels[i].style.textDecoration = "none";
         }
+    }
 
-
+    const getAllResults = () => {
+        <div>
+            Votre score : { score } / { quizz.length }
+        </div>
     }
 
     return (
@@ -133,13 +137,7 @@ function EducationTemplate4() {
                     <div> {indexOfQuestion + 1} of {quizz.length} questions </div>
 
                     <div className="d-flex justify-content-center align-items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                            className="bi bi-stopwatch" viewBox="0 0 16 16">
-                            <path d="M8.5 5.6a.5.5 0 1 0-1 0v2.9h-3a.5.5 0 0 0 0 1H8a.5.5 0 0 0 .5-.5z" />
-                            <path
-                                d="M6.5 1A.5.5 0 0 1 7 .5h2a.5.5 0 0 1 0 1v.57c1.36.196 2.594.78 3.584 1.64l.012-.013.354-.354-.354-.353a.5.5 0 0 1 .707-.708l1.414 1.415a.5.5 0 1 1-.707.707l-.353-.354-.354.354-.013.012A7 7 0 1 1 7 2.071V1.5a.5.5 0 0 1-.5-.5M8 3a6 6 0 1 0 .001 12A6 6 0 0 0 8 3" />
-                        </svg>
-                        <div id="remaining-time"> {time}s</div>
+                        <div>Score : {score}/{quizz.length} </div>
                     </div>
                 </div>
                 <p id="quiz-question">{quizz[indexOfQuestion].question} </p>

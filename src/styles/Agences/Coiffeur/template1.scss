@@ -1,0 +1,256 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.whatwedo{
+    text-align: center;
+    padding: 40px;
+}
+
+.whatwedo p {
+    color: darkgrey;
+    font-weight: 400;
+    max-width: 550px;
+    margin: 10px auto;
+    font-size: small;
+}
+
+.whatwedo .col{
+    max-width: 350px;
+    margin: 20px;
+}
+
+.whatwedo .col h3{
+    font-size: large ;
+}
+
+.whatwedo .col img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin:  20px 0;
+}
+
+/* ----------------------------------------------------------------- */
+.workinghours{
+    background-image: url("http://demo.zytheme.com/hairy/assets/images/background/2.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* very important this line */
+    min-height: 50vh;
+    width: 100vw;
+    text-align: center;
+    padding: 40px;
+  
+}
+
+.workinghours::before{
+    content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.workinghours h2,
+.workinghours h3,
+.workinghours p{
+    color: white;
+}
+
+.workinghours .col{
+    margin: 6px ;
+    border: 0.5px solid white;
+    padding: 20px 10px;
+    min-width: 90px !important;
+}
+
+/* --------------------------------------------------------------------- */
+
+.ourpricing{
+    text-align: center;
+    padding: 40px;
+}
+
+.ourpricing p {
+    color: darkgrey;
+    font-weight: 400;
+    max-width: 550px;
+    margin: 10px auto;
+    font-size: small;
+}
+.ourpricing .col {
+    min-width: 300px;
+    width: 600px;
+    margin: 40px;
+}
+@media(max-width:500px){
+.ourpricing,
+    .ourpricing .col {
+        margin: 10px;
+        padding: 10px;
+    } 
+}
+
+.ourpricing .col h3{
+   font-size: large;
+}
+
+.ourpricing .col .pricing--divider {
+    height: 27px;
+    margin: 5px;
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 15px;
+        flex-grow: 100;
+
+}
+
+.ourpricing .col .price {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: right;
+    float: right;
+    margin-bottom: 0;
+    color: #d2a83d;
+    padding-left: 10px;
+}
+
+/* --------------------------------------------------------------------- */
+
+.clientssay{
+    text-align: center;
+    padding: 40px;
+}
+.clientssay .col{
+    margin: 40px 20px;
+    background-color: white;
+    padding: 20px 15px;
+    color: #333;
+    max-width: 300px;
+}
+.clientssay{
+    color: white;
+    background-image: url("http://demo.zytheme.com/hairy/assets/images/testimonial/bg-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /* very important this line */
+    min-height: 50vh;
+    width: 100vw;
+    text-align: center;
+    padding: 40px;
+  
+}
+
+.clientssay::before{
+    content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+
+/* --------------------------------------------------------------------- */
+.gallery{
+    text-align: center;
+    padding: 40px;
+    background-color: #f8f8f8;
+}
+
+.gallery img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 5px;
+}
+
+/* --------------------------------------------------------------------- */
+.contactus{
+    text-align: center;
+    padding: 40px;
+}
+
+.contactus form,
+.contactus form input,
+    .contactus form textarea{
+    text-align: left;
+    width: 500px;
+}
+
+.contactus form input
+{
+    margin-bottom: 15px;
+}
+
+.contactus form button{
+margin: 20px auto;
+display: block;
+}
+
+@media(max-width:500px){
+    .contactus form,
+    .contactus form input,
+        .contactus form textarea{
+        
+        width: 350px;
+    }
+}

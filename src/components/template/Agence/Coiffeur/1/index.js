@@ -1,4 +1,4 @@
-import '../../../../../styles/Coiffeur/template1.scss'
+import '../../../../../styles/Agences/Coiffeur/template1.scss'
 import 'bootstrap/dist/css/bootstrap.css';
 import logo from "../../../../../assets/coiffeur/logo.png";
 import home from "../../../../../assets/coiffeur/home.png";

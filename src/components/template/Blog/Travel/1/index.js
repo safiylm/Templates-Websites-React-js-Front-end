@@ -1,11 +1,11 @@
-import '../../../../styles/Travel/template1.scss'
-import hiking from "../../../../assets/template8/hiking.png";
-import car from "../../../../assets/template8/car.png";
-import ocean from "../../../../assets/template8/ocean.png";
-import ride from "../../../../assets/template8/ride.png";
+import '../../../../../styles/Blog/travel1.scss'
+import hiking from "../../../../../assets/template8/hiking.png";
+import car from "../../../../../assets/template8/car.png";
+import ocean from "../../../../../assets/template8/ocean.png";
+import ride from "../../../../../assets/template8/ride.png";
 import 'bootstrap/dist/css/bootstrap.css';
 
-function TravelTemplate1() {
+function TravelBlog1() {
     return (
         <div id="div-Travel1-container">
 
@@ -109,4 +109,4 @@ function TravelTemplate1() {
 }
 
 
-export default TravelTemplate1;
+export default TravelBlog1;

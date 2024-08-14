@@ -1,13 +1,13 @@
-import '../../../../styles/Travel/template2.scss'
-import aboutus from "../../../../assets/template2/aboutus4.jpg";
-import awards from "../../../../assets/template2/awards.jpg";
-import benefits4 from "../../../../assets/template2/benefits4.jpg";
-import travel from "../../../../assets/template2/travel4.jpg";
+import '../../../../../styles/Blog/travel2.scss'
+import aboutus from "../../../../../assets/template2/aboutus4.jpg";
+import awards from "../../../../../assets/template2/awards.jpg";
+import benefits4 from "../../../../../assets/template2/benefits4.jpg";
+import travel from "../../../../../assets/template2/travel4.jpg";
 import 'bootstrap/dist/css/bootstrap.css';
 
 
 
-function TravelTemplate2() {
+function TravelBlog2() {
     return (
         <>
     <div id="div-page1" className='d-flex flex-row align-items-center justify-content-center flex-wrap'>
@@ -261,4 +261,4 @@ function TravelTemplate2() {
     );
 }
 
-export default TravelTemplate2;
+export default TravelBlog2;

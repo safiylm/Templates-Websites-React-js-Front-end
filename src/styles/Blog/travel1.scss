@@ -1,0 +1,310 @@
+#div-Travel1-container {
+    .div0 {
+        background-image: url("https://images01.nicepage.com/95/94/959442e7ce67c27b19ade3667cfeba2d.jpeg");
+        height: 100vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 40px;
+
+        h1 {
+            padding-top: 50vh;
+            padding-right: 10vh;
+            text-align: right;
+            font-size: 80px;
+            color: white;
+        }
+
+        @media(max-width:800px) {
+            h1 {
+                padding-top: 20vh;
+                padding-right: 2vh;
+            }
+        }
+    }
+
+    #div1 {
+        background-color: white;
+        margin-bottom: 40px;
+
+        .texte {
+            width: 500px;
+            margin: 20px;
+
+            h1 {
+                font-family: 'Montserrat, sans-serif';
+                text-transform: capitalize;
+                font-style: normal;
+                font-weight: 700;
+                padding: 10px;
+                margin: 10px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 26px;
+                font-style: normal;
+                color: rgb(56, 55, 55);
+            }
+        }
+
+        img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+            margin: 20px;
+
+        }
+
+        @media(max-width:1000px) {
+            .texte {
+                width: 100vw;
+            }
+
+            img {
+                width: 100vw;
+            }
+        }
+    }
+
+    .div2 {
+        background-color: #292d33;
+
+        .div2-texte {
+            color: white;
+            padding: 60px 500px 30px 200px;
+
+            h1 {
+                text-align: left;
+                padding: 10px;
+                margin: 10px;
+                font-size: 60px;
+                font-style: normal;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+
+            p {
+                line-height: 25px;
+                font-size: 17px;
+            }
+
+
+            @media(max-width:1000px) {
+                padding: 20px !important;
+
+            }
+        }
+
+        #liste {
+            padding: 20px 100px 100px 100px;
+
+            #item {
+
+                img {
+                    height: 100px;
+                    width: 100px;
+                    object-fit: cover;
+                    padding: 10px;
+                    margin: 10px;
+
+                }
+
+                h6 {
+                    color: white;
+                    font-size: 30px;
+                    padding: 10px;
+                    margin: 10px;
+
+                }
+            }
+
+
+
+        }
+
+
+    }
+
+    #div3 {
+        width: 950px;
+        margin: 50px auto;
+
+        img {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            margin: 5px;
+        }
+
+        div {
+            width: 300px;
+            height: 300px;
+            margin: 5px;
+
+            h1 {
+                text-align: center;
+                font-size: 50px;
+                padding: 20px;
+                margin: 80px 20px;
+            }
+        }
+
+        @media(max-width:1000px) {
+            width: 100vw;
+
+            img,
+            div {
+                width: 40vw;
+                height: 40vw;
+
+            }
+        }
+    }
+
+    #div4 {
+        background-color: #3e4a59;
+        color: white;
+        padding: 100px;
+
+        h1 {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 65px;
+            text-align: left;
+            margin: 50px 10px;
+            padding: 10px;
+        }
+
+        p {
+            font-size: 19px;
+            margin: 20px 30px;
+        }
+
+        button {
+            margin: 20px 30px;
+            background-color: white;
+            font-weight: 800;
+            font-size: 15px;
+            color: #3e4a59;
+            border: none;
+            padding: 13px 25px;
+        }
+
+        @media(max-width:1000px) {
+            padding: 20px !important;
+
+        }
+
+    }
+
+    .div5 {
+
+        margin: 50px;
+
+        :first-child {
+
+            * {
+                margin-right: 50px;
+
+            }
+
+            h1 {
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-size: 60px;
+                margin-bottom: 20px;
+                text-align: right;
+
+            }
+
+            p {
+                text-align: right;
+
+            }
+        }
+
+        #div-clients {
+            padding: 50px;
+
+            .div-un-client {
+                margin: 20px 50px;
+                width: 450px;
+                text-align: center;
+
+                img {
+                    border-radius: 50%;
+                    width: 100px;
+                    height: 100px;
+                    object-fit: cover;
+                    margin: 20px auto;
+                }
+
+                h2 {
+                    margin: 40px auto;
+                    ;
+                }
+
+
+
+            }
+
+
+        }
+
+        @media (max-width:700px) {
+            margin: 10px !important;
+
+            #div-clients {
+                margin: 50px 5px !important;
+                padding: 10px !important;
+
+                .div-un-client {
+
+                    width: 100vw !important;
+                    margin: 10px !important;
+
+                    img {
+                        border-radius: 50%;
+                        width: 100px;
+                        height: 100px;
+                        object-fit: cover;
+                        margin: 10px auto;
+                    }
+
+                    h2 {
+                        margin: 10px auto;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    #div6 {
+        width: 100%;
+
+        img {
+            width: 50vw;
+            height: 400px;
+            object-fit: cover;
+        }
+
+        @media (max-width:500px) {
+            img {
+                width: 100vw;
+                height: 400px;
+            }
+        }
+    }
+
+    footer {
+        background-color: #292d33;
+        text-align: center;
+        padding: 50px;
+
+        a {
+
+            color: white;
+        }
+    }
+}
